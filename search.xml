@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Test</title>
+    <url>/2024/05/29/Test/</url>
+    <content><![CDATA[<p>Test blog</p>
+<span id="more"></span>
+
+<p>中文测试</p>
+<p>Update test</p>
+<p>图片测试： <img src="/images/avatar.jpg" alt="avatar"></p>
+<p>Shutdown</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">poweroff</span><br></pre></td></tr></table></figure>
+
+<pre><code class="c++">#include &lt;iostream&gt;
+using namespace std;
+
+int main() &#123;
+    return 0;
+&#125;
+</code></pre>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Journal-1</title>
     <url>/2024/06/05/Journal-1/</url>
     <content><![CDATA[<p>嗯~ o(<em>￣▽￣</em>)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~<br>应该是会好好分类的，不用担心找不到.                     ——2024.6.5</p>
 <span id="more"></span>
 
-<p>今天还找到之前听过很好听但是不知道歌名的歌儿 ~<br><img src="/%5Cimages%5CJournal1-1.png" alt="alt text"></p>
+<p>今天还找到之前听过很好听但是不知道歌名的歌儿 ~<br><img src="/./images/Journal1-1.png" alt="alt text"></p>
 <blockquote>
 <p>‘Cause I into you - lan</p>
 </blockquote>
@@ -32,33 +59,6 @@
       </categories>
       <tags>
         <tag>Journal</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Test</title>
-    <url>/2024/05/29/Test/</url>
-    <content><![CDATA[<p>Test blog</p>
-<span id="more"></span>
-
-<p>中文测试</p>
-<p>Update test</p>
-<p>图片测试： <img src="/images/avatar.jpg" alt="avatar"></p>
-<p>Shutdown</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">poweroff</span><br></pre></td></tr></table></figure>
-
-<pre><code class="c++">#include &lt;iostream&gt;
-using namespace std;
-
-int main() &#123;
-    return 0;
-&#125;
-</code></pre>
-]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
       </tags>
   </entry>
 </search>
