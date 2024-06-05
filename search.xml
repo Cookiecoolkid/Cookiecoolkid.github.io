@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Journal-1</title>
+    <url>/2024/06/05/Journal-1/</url>
+    <content><![CDATA[<p>嗯~ o(<em>￣▽￣</em>)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~<br>应该是会好好分类的，不用担心找不到.                     ——2024.6.5</p>
+<span id="more"></span>
+
+<p>今天还找到之前听过很好听但是不知道歌名的歌儿 ~<br><img src="/%5Cimages%5CJournal1-1.png" alt="alt text"></p>
+<blockquote>
+<p>‘Cause I into you - lan</p>
+</blockquote>
+<p>目前是快要到期末周了，各科作业都很难~特别点名操作系统实验以及概率论。<br>等概率论写完了看看能不能直接 post 上来hhhhhh（概率论是用 $Latex$ 写的，而 hexo 默认用的是 Markdown hhh）</p>
+<p>目前计划的是希望能够多尝试一些 C&#x2F;C++的项目，下面仅作收藏记录hhh肯定看不完：</p>
+<ul>
+<li><a href="https://github.com/huihut/interview">C&#x2F;C++技术面试</a></li>
+<li><a href="https://github.com/Light-City/CPlusPlusThings">C++那些事</a></li>
+<li><a href="https://github.com/TheAlgorithms/C-Plus-Plus">C++算法实现</a></li>
+<li><a href="https://github.com/forthespada/MyPoorWebServer">C++简易 HTTP 服务器</a></li>
+<li><a href="https://github.com/qinguoyi/TinyWebServer">C++ WebServer</a></li>
+<li><a href="https://link.zhihu.com/?target=https://github.com/microsoft/calculator">Microsoft Calculator</a></li>
+</ul>
+<p>下面两个较难.</p>
+<ul>
+<li><a href="https://link.zhihu.com/?target=https://github.com/yuesong-feng/30dayMakeCppServer">30dayMakeCppServer</a></li>
+<li><a href="https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System">How-to-Make-a-Computer-Operating-System</a></li>
+</ul>
+<p>希望暑假可以多试试hhhhhh.写概率论去咯~</p>
+]]></content>
+      <categories>
+        <category>Journal</category>
+      </categories>
+      <tags>
+        <tag>Journal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Test</title>
     <url>/2024/05/29/Test/</url>
     <content><![CDATA[<p>Test blog</p>
@@ -26,26 +60,5 @@ int main() &#123;
       <tags>
         <tag>test</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/05/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! </p>
-<span id="more"></span>
-
-<p>This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
