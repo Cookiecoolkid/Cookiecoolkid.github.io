@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-06-19T05:16:41.900Z</updated>
+  <updated>2024-06-26T04:21:22.878Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -17,6 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>os-code-introduction</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/</id>
+    <published>2024-06-26T02:36:24.000Z</published>
+    <updated>2024-06-26T04:21:22.878Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;fork-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Numerical-Method-Review</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Numerical-Method-Review/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Numerical-Method-Review/</id>
@@ -24,9 +44,7 @@
     <updated>2024-06-19T05:16:41.900Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;计算方法 Numerical method (Spring 2024) By 刘景铖&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自 &amp;gt; 计算方法 Numerical method (Spring 2024) By 刘景铖</summary>
     
     
     
@@ -64,9 +82,7 @@
     <updated>2024-06-18T12:08:20.925Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖</summary>
     
     
     
@@ -85,7 +101,7 @@
     <updated>2024-06-16T01:38:53.529Z</updated>
     
     
-    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~&lt;br&gt;应该是会好好分类的，不用担心找不到.                     ——2024.6.5&lt;br&gt;</summary>
+    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5</summary>
     
     
     
