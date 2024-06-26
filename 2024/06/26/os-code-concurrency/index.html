@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"github.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！">
+  <meta name="description" content="All code is taken from NJU-2024-operation-system by jyy. please check https:&#x2F;&#x2F;jyywiki.cn&#x2F;OS&#x2F;2024&#x2F; fork-code： https:&#x2F;&#x2F;github.com&#x2F;Cookiecoolkid&#x2F;jyyos&#x2F;tree&#x2F;master&#x2F;concurrency">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Journal-2">
-<meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/index.html">
+<meta property="og:title" content="os-code-concurrency">
+<meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/index.html">
 <meta property="og:site_name" content="Cookiecoolkid">
-<meta property="og:description" content="今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！">
+<meta property="og:description" content="All code is taken from NJU-2024-operation-system by jyy. please check https:&#x2F;&#x2F;jyywiki.cn&#x2F;OS&#x2F;2024&#x2F; fork-code： https:&#x2F;&#x2F;github.com&#x2F;Cookiecoolkid&#x2F;jyyos&#x2F;tree&#x2F;master&#x2F;concurrency">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-06-15T16:19:17.000Z">
-<meta property="article:modified_time" content="2024-06-15T16:27:13.410Z">
+<meta property="article:published_time" content="2024-06-26T08:32:08.000Z">
+<meta property="article:modified_time" content="2024-06-26T08:35:11.321Z">
 <meta property="article:author" content="Cookiecoolkid">
-<meta property="article:tag" content="Journal">
+<meta property="article:tag" content="Operation System">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/">
+<link rel="canonical" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>Journal-2 | Cookiecoolkid</title>
+  <title>os-code-concurrency | Cookiecoolkid</title>
   
 
 
@@ -300,7 +300,7 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -313,7 +313,7 @@ mjx-container[display="true"] + br {
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Journal-2
+          os-code-concurrency
         </h1>
 
         <div class="post-meta">
@@ -324,7 +324,7 @@ mjx-container[display="true"] + br {
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-06-16 00:19:17 / 修改时间：00:27:13" itemprop="dateCreated datePublished" datetime="2024-06-16T00:19:17+08:00">2024-06-16</time>
+              <time title="创建时间：2024-06-26 16:32:08 / 修改时间：16:35:11" itemprop="dateCreated datePublished" datetime="2024-06-26T16:32:08+08:00">2024-06-26</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -332,7 +332,7 @@ mjx-container[display="true"] + br {
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Journal/" itemprop="url" rel="index"><span itemprop="name">Journal</span></a>
+                  <a href="/categories/Operation-System/" itemprop="url" rel="index"><span itemprop="name">Operation System</span></a>
                 </span>
             </span>
 
@@ -354,16 +354,11 @@ mjx-container[display="true"] + br {
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！</p>
+        <p><strong>All code is taken from NJU-2024-operation-system by jyy.</strong> please check <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/2024/">https://jyywiki.cn/OS/2024/</a></p>
+<p>fork-code： <a href="https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency">https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency</a></p>
 <span id="more"></span>
-<p>最近发现了个很有意思的 slides 制作工具.</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc + reveal.js + markdown</span><br></pre></td></tr></table></figure>
-<p>可以直接编辑 markdown 文件，然后通过 pandoc 转换成 reveal.js 的 slides，非常方便. 而且效果也特别好看. 特别有意思.</p>
-<p>不仅可以左右翻页。它！竟然还可以上下翻页！！！ 这真是太酷了.</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pandoc -t revealjs -s demo.md -o demo-2.html -V theme=white</span><br></pre></td></tr></table></figure>
-<p>EZ.</p>
-<p>据说海底捞还出了冰粉和其他很多好吃的，暑假想去试试看.</p>
-<p>下一个周三就考概率论和计算方法咯，正在慌张地玩游戏ing...</p>
+<h3 id="thread-lib-star2-star2-star2">thread-lib :star2: :star2: :star2:</h3>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;assert.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;pthread.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LENGTH(arr) (sizeof(arr) / sizeof(arr[0]))</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">enum</span> {</span></span><br><span class="line">    T_FREE = <span class="number">0</span>, <span class="comment">// This slot is not used yet.</span></span><br><span class="line">    T_LIVE,     <span class="comment">// This thread is running.</span></span><br><span class="line">    T_DEAD,     <span class="comment">// This thread has terminated.</span></span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">thread</span> {</span></span><br><span class="line">    <span class="type">int</span> id;  <span class="comment">// Thread number: 1, 2, ...</span></span><br><span class="line">    <span class="type">int</span> status;  <span class="comment">// Thread status: FREE/LIVE/DEAD</span></span><br><span class="line">    <span class="type">pthread_t</span> thread;  <span class="comment">// Thread struct</span></span><br><span class="line">    <span class="type">void</span> (*entry)(<span class="type">int</span>);  <span class="comment">// Entry point</span></span><br><span class="line">};</span><br><span class="line"></span><br><span class="line"><span class="type">static</span> <span class="class"><span class="keyword">struct</span> <span class="title">thread</span> <span class="title">threads_</span>[4096];</span></span><br><span class="line"><span class="type">static</span> <span class="type">int</span> n_ = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// This is the entry for a created POSIX thread. It "wraps"</span></span><br><span class="line"><span class="comment">// the function call of entry(id) to be compatible to the</span></span><br><span class="line"><span class="comment">// pthread library's requirements: a thread takes a void *</span></span><br><span class="line"><span class="comment">// pointer as argument, and returns a pointer.</span></span><br><span class="line"><span class="type">static</span> <span class="keyword">inline</span></span><br><span class="line"><span class="type">void</span> *<span class="title function_">wrapper_</span><span class="params">(<span class="type">void</span> *arg)</span> {</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">thread</span> *<span class="title">t</span> =</span> (<span class="keyword">struct</span> thread *)arg;</span><br><span class="line">    t-&gt;entry(t-&gt;id);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// Create a thread that calls function fn. fn takes an integer</span></span><br><span class="line"><span class="comment">// thread id as input argument.</span></span><br><span class="line"><span class="type">static</span> <span class="keyword">inline</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">create</span><span class="params">(<span class="type">void</span> *fn)</span> {</span><br><span class="line">    assert(n_ &lt; LENGTH(threads_));</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Yes, we have resource leak here!</span></span><br><span class="line">    threads_[n_] = (<span class="keyword">struct</span> thread) {</span><br><span class="line">        .id = n_ + <span class="number">1</span>,</span><br><span class="line">        .status = T_LIVE,</span><br><span class="line">        .entry = fn,</span><br><span class="line">    };</span><br><span class="line">    pthread_create(</span><br><span class="line">        &amp;(threads_[n_].thread),  <span class="comment">// a pthread_t</span></span><br><span class="line">        <span class="literal">NULL</span>,  <span class="comment">// options; all to default</span></span><br><span class="line">        wrapper_,  <span class="comment">// the wrapper function</span></span><br><span class="line">        &amp;threads_[n_] <span class="comment">// the argument to the wrapper</span></span><br><span class="line">    );</span><br><span class="line">    n_++;</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// Wait until all threads return.</span></span><br><span class="line"><span class="type">static</span> <span class="keyword">inline</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">join</span><span class="params">()</span> {</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; LENGTH(threads_); i++) {</span><br><span class="line">        <span class="class"><span class="keyword">struct</span> <span class="title">thread</span> *<span class="title">t</span> =</span> &amp;threads_[i];</span><br><span class="line">        <span class="keyword">if</span> (t-&gt;status == T_LIVE) {</span><br><span class="line">            pthread_join(t-&gt;thread, <span class="literal">NULL</span>);</span><br><span class="line">            t-&gt;status = T_DEAD;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">__attribute__((constructor)) </span><br><span class="line"><span class="type">static</span> <span class="type">void</span> <span class="title function_">startup</span><span class="params">()</span> {</span><br><span class="line">    atexit(join);</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -407,7 +402,7 @@ mjx-container[display="true"] + br {
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Journal/" rel="tag"># Journal</a>
+              <a href="/tags/Operation-System/" rel="tag"># Operation System</a>
           </div>
 
         
@@ -416,13 +411,10 @@ mjx-container[display="true"] + br {
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2024/06/11/Probability-Theory-Review/" rel="prev" title="Probability Theory Review">
-      <i class="fa fa-chevron-left"></i> Probability Theory Review
+    <a href="/2024/06/26/os-code-introduction/" rel="prev" title="os-code-introduction">
+      <i class="fa fa-chevron-left"></i> os-code-introduction
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2024/06/16/Numerical-Method-Review/" rel="next" title="Numerical-Method-Review">
-      Numerical-Method-Review <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -481,6 +473,7 @@ mjx-container[display="true"] + br {
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#thread-lib-star2-star2-star2"><span class="nav-number">1.</span> <span class="nav-text">thread-lib :star2: :star2: :star2:</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
