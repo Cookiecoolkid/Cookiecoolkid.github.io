@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-06-28T10:27:12.858Z</updated>
+  <updated>2024-06-28T10:49:29.378Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -21,16 +21,11 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/</id>
     <published>2024-06-28T08:19:41.000Z</published>
-    <updated>2024-06-28T10:27:12.858Z</updated>
+    <updated>2024-06-28T10:49:29.378Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -46,16 +41,11 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-kernel/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-kernel/</id>
     <published>2024-06-28T08:08:05.000Z</published>
-    <updated>2024-06-28T08:21:06.361Z</updated>
+    <updated>2024-06-28T10:49:24.911Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
