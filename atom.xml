@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-06-26T11:05:47.555Z</updated>
+  <updated>2024-06-28T08:06:37.812Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>os-code-virtualization</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/</id>
+    <published>2024-06-27T08:32:08.000Z</published>
+    <updated>2024-06-28T08:06:37.812Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
   
   <entry>
     <title>emoji &amp; mathjax</title>
@@ -40,11 +60,11 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/</id>
     <published>2024-06-26T08:32:08.000Z</published>
-    <updated>2024-06-27T07:45:48.269Z</updated>
+    <updated>2024-06-27T08:32:41.290Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fork-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -60,11 +80,11 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/</id>
     <published>2024-06-26T02:36:24.000Z</published>
-    <updated>2024-06-26T11:16:16.010Z</updated>
+    <updated>2024-06-27T08:32:35.335Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;fork-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
