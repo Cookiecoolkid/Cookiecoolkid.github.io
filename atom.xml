@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-06-28T16:21:36.457Z</updated>
+  <updated>2024-06-29T12:09:07.052Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -21,16 +21,10 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-review/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-review/</id>
     <published>2024-06-28T15:41:35.000Z</published>
-    <updated>2024-06-28T16:21:36.457Z</updated>
+    <updated>2024-06-29T12:09:07.052Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">&lt;p&gt;Thank you. Teacher jyy!&lt;/p&gt;</summary>
     
     
     
@@ -49,8 +43,10 @@
     <updated>2024-06-28T10:49:29.378Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
+please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code：&lt;br&gt;
+&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -69,8 +65,10 @@
     <updated>2024-06-28T10:49:24.911Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
+please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code：&lt;br&gt;
+&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -89,8 +87,10 @@
     <updated>2024-06-28T08:06:37.812Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
+please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code：&lt;br&gt;
+&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -128,8 +128,10 @@
     <updated>2024-06-27T08:32:41.290Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
+please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code：&lt;br&gt;
+&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -148,8 +150,10 @@
     <updated>2024-06-27T08:32:35.335Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
+please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code：&lt;br&gt;
+&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -168,7 +172,10 @@
     <updated>2024-06-26T10:40:24.603Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自 &amp;gt; 计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -206,7 +213,10 @@
     <updated>2024-06-18T12:08:20.925Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
     
     
     
@@ -222,10 +232,11 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/</id>
     <published>2024-06-05T11:08:05.000Z</published>
-    <updated>2024-06-16T01:38:53.529Z</updated>
+    <updated>2024-06-29T12:09:03.076Z</updated>
     
     
-    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~&lt;br&gt;
+应该是会好好分类的，不用担心找不到.                     ——2024.6.5&lt;/p&gt;</summary>
     
     
     
