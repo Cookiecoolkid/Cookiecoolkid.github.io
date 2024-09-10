@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cookiecoolkid</title>
+  
+  
+  <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
+  <updated>2024-09-10T03:42:57.708Z</updated>
+  <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
+  
+  <author>
+    <name>Cookiecoolkid</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CryptoTheory1</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/05/CryptoTheory1/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/05/CryptoTheory1/</id>
+    <published>2024-09-05T00:59:34.000Z</published>
+    <updated>2024-09-10T03:42:57.708Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;🔒🔐🔓🔑&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Crypto Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Crypto-Theory/"/>
+    
+    
+    <category term="Crypto" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Crypto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DP</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/DP/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/DP/</id>
+    <published>2024-09-02T01:26:24.000Z</published>
+    <updated>2024-09-10T03:42:57.710Z</updated>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;状态表示(思考维度 如二维f[i][j])&lt;/li&gt;
+&lt;li&gt;集合：f[i][j] 表示哪些情况&lt;/li&gt;
+&lt;li&gt;属性：f[i][j] 表示集合里的 MAX/MIN/数量&lt;/li&gt;
+&lt;li&gt;状态计算&lt;/li&gt;
+&lt;li&gt;划分集合(不重不漏)&lt;/li&gt;
+&lt;li&gt;状态转移方程&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="AcWing" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/AcWing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科目一记分题</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/22/%E7%A7%91%E7%9B%AE%E4%B8%80%E8%AE%B0%E5%88%86%E9%A2%98/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/22/%E7%A7%91%E7%9B%AE%E4%B8%80%E8%AE%B0%E5%88%86%E9%A2%98/</id>
+    <published>2024-07-22T03:58:42.000Z</published>
+    <updated>2024-09-10T03:42:57.738Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;科目一启动&quot;&gt;科目一，启动！🚘&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;12分记分题&lt;/li&gt;
+&lt;li&gt;9分记分题&lt;/li&gt;
+&lt;li&gt;6分记分题&lt;/li&gt;
+&lt;li&gt;3分记分题&lt;/li&gt;
+&lt;li&gt;1分记分题&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="驾考" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/%E9%A9%BE%E8%80%83/"/>
+    
+    
+    <category term="驾考" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/%E9%A9%BE%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2.两数相加</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/20/2-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/20/2-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/</id>
+    <published>2024-07-20T06:40:14.000Z</published>
+    <updated>2024-09-10T03:42:57.708Z</updated>
+    
+    
+    <summary type="html">&lt;h4 id=&quot;题目描述&quot;&gt;题目描述 📝&lt;/h4&gt;
+&lt;p&gt;给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。&lt;/p&gt;
+&lt;p&gt;请你将两个数相加，并以相同形式返回一个表示和的链表。&lt;/p&gt;
+&lt;p&gt;你可以假设除了数字 0 之外，这两个数都不会以 0 开头。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="LeetCode" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/LeetCode/"/>
+    
+    
+    <category term="LeetCode" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/LeetCode/"/>
+    
+    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Container-Docker</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/03/Container-Docker/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/03/Container-Docker/</id>
+    <published>2024-07-03T02:04:30.000Z</published>
+    <updated>2024-09-10T03:42:57.708Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;云原生 - Docker&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Docker" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Docker/"/>
+    
+    
+    <category term="Docker" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FAT32-spec</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/01/FAT32-spec/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/01/FAT32-spec/</id>
+    <published>2024-07-01T08:19:41.000Z</published>
+    <updated>2024-09-10T03:42:57.721Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Check the FAT32 file system specification. &lt;a href=&quot;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-review</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-review/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-review/</id>
+    <published>2024-06-28T15:41:35.000Z</published>
+    <updated>2024-09-10T03:42:57.738Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Thank you. Teacher jyy!&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-code-persistence</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/</id>
+    <published>2024-06-28T08:19:41.000Z</published>
+    <updated>2024-09-10T03:42:57.738Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-code-kernel</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-kernel/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-kernel/</id>
+    <published>2024-06-28T08:08:05.000Z</published>
+    <updated>2024-09-10T03:42:57.738Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-code-virtualization</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/</id>
+    <published>2024-06-27T08:32:08.000Z</published>
+    <updated>2024-09-10T03:42:57.738Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>emoji &amp; mathjax</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/</id>
+    <published>2024-06-26T10:33:01.000Z</published>
+    <updated>2024-09-10T03:42:57.737Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近希望在 hexo 上加上支持渲染 emoji 的功能，但是此时发现 mathjax 无法正常渲染了.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-code-concurrency</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/</id>
+    <published>2024-06-26T08:32:08.000Z</published>
+    <updated>2024-09-10T03:42:57.737Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-code-introduction</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/</id>
+    <published>2024-06-26T02:36:24.000Z</published>
+    <updated>2024-09-10T03:42:57.737Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Numerical-Method-Review</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Numerical-Method-Review/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Numerical-Method-Review/</id>
+    <published>2024-06-16T01:52:39.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自 &amp;gt; 计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Numerical Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Numerical-Method/"/>
+    
+    
+    <category term="Numerical Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Numerical-Method/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Journal-2</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/</id>
+    <published>2024-06-15T16:19:17.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Probability Theory Review</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/</id>
+    <published>2024-06-11T02:01:29.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Probability-Theory/"/>
+    
+    
+    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Journal-1</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/</id>
+    <published>2024-06-05T11:08:05.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
+    
+  </entry>
+  
+</feed>
