@@ -62,23 +62,17 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/</id>
     <published>2024-09-02T01:26:24.000Z</published>
-    <updated>2024-09-13T08:29:55.016Z</updated>
+    <updated>2024-09-13T10:03:44.023Z</updated>
     
     
     <summary type="html">&lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;状态表示(思考维度 如二维f[i][j])
-&lt;ul&gt;
+&lt;li&gt;状态表示(思考维度 如二维f[i][j])&lt;/li&gt;
 &lt;li&gt;集合：f[i][j] 表示哪些情况&lt;/li&gt;
 &lt;li&gt;属性：f[i][j] 表示集合里的 MAX/MIN/数量&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;状态计算
-&lt;ul&gt;
+&lt;li&gt;状态计算&lt;/li&gt;
 &lt;li&gt;划分集合(不重不漏)&lt;/li&gt;
 &lt;li&gt;状态转移方程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     
@@ -98,7 +92,7 @@
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;科目一，启动！🚘&quot;&gt;科目一，启动！🚘&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;科目一启动&quot;&gt;科目一，启动！🚘&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;12分记分题&lt;/li&gt;
 &lt;li&gt;9分记分题&lt;/li&gt;
@@ -124,7 +118,7 @@
     <updated>2024-09-10T03:42:57.708Z</updated>
     
     
-    <summary type="html">&lt;h4 id=&quot;题目描述-📝&quot;&gt;题目描述 📝&lt;/h4&gt;
+    <summary type="html">&lt;h4 id=&quot;题目描述&quot;&gt;题目描述 📝&lt;/h4&gt;
 &lt;p&gt;给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。&lt;/p&gt;
 &lt;p&gt;请你将两个数相加，并以相同形式返回一个表示和的链表。&lt;/p&gt;
 &lt;p&gt;你可以假设除了数字 0 之外，这两个数都不会以 0 开头。&lt;/p&gt;</summary>
@@ -167,8 +161,7 @@
     <updated>2024-09-10T03:42:57.721Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Check the FAT32 file system specification.&lt;br&gt;
-&lt;a href=&quot;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&quot;&gt;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Check the FAT32 file system specification. &lt;a href=&quot;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -206,10 +199,8 @@
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -228,10 +219,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -250,10 +239,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -291,10 +278,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.737Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -313,10 +298,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.737Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -335,10 +318,7 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.722Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自 &amp;gt; 计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;</summary>
     
     
     
@@ -376,10 +356,7 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.722Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
     
     
     
@@ -398,8 +375,7 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.722Z</updated>
     
     
-    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~&lt;br&gt;
-应该是会好好分类的，不用担心找不到.                     ——2024.6.5&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
     
     
     

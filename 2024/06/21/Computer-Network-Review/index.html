@@ -368,52 +368,31 @@ mjx-container[display="true"] + br {
       
         <p>对于本学期计网课程的简要复习大纲</p>
 <!---more--->
-<h2 id="Chapter-1-计算机网络概述">Chapter 1: 计算机网络概述</h2>
+<h2 id="chapter-1-计算机网络概述">Chapter 1: 计算机网络概述</h2>
 <ul>
 <li>协议(protocol): 定义了在两个或多个通信实体之间交换的报文的格式和顺序，以及报文发送和/或接收一条报文或其他事件所采取的动作。</li>
 <li>端系统(end system): 即主机，一般指计算机，如PC、工作站、服务器等。</li>
 <li>物理层物理媒介: 通信的基础，如双绞铜线、光纤、同轴电缆、陆地/卫星的无线电信道等。</li>
 <li>报文(message): 用于网络通信的数据单元，而分组是对报文的进一步划分。</li>
-<li>交换器(switch): 用于在网络中传输数据的设备，如路由器、分组交换机等。
-<ul>
+<li>交换器(switch): 用于在网络中传输数据的设备，如路由器、分组交换机等。</li>
 <li>路由器(router): 用于在网络层转发数据的设备。</li>
 <li>分组交换机(packet switch): 用于在数据链路层转发数据的设备。</li>
-</ul>
-</li>
 <li>分组交换机传输方式：一般为存储转发(store and forward): 接收到整个分组后，才开始转发。因为接收到分组之后要对首部进行解析，因此需要先存储整个分组，然后再转发。</li>
 <li>路由器的转发表：会根据 IP 地址使用 ARP 协议获取 MAC 地址，然后根据 MAC 地址转发数据。</li>
 <li>电路交换(circuit switching): 通信双方在通信之前建立一条专用的物理通路，通信结束后再释放这条通路。如电话通信。能够确保以恒定速率传输数据，但传输效率低。</li>
 <li>分组交换(packet switching): 通信双方在通信之前不需要建立专用的物理通路，而是通过交换机在网络中动态选择传输路径。如互联网。能够提高传输效率，但无法保证传输速率(不适合电话和视频会议等实时传输)。</li>
 <li>电路交换网络中的复用：时分复用(TDM)、频分复用(FDM)、波分复用(WDM)。</li>
 <li>网络提供商(ISP): 通过向用户提供接入互联网的服务，而用户通过接入互联网来访问其他用户的计算机。其中有对等、多宿等不同的连接方式。</li>
-<li>分组交换网中的时延、丢包和吞吐量：
-<ul>
+<li>分组交换网中的时延、丢包和吞吐量：</li>
 <li>时延(delay): 传输时延、处理时延、排队时延、传播时延。</li>
 <li>丢包(packet loss): 当流量强度接近 1 时，会出现丢包现象。</li>
 <li>吞吐量(throughput): 在多个路由器之间传输数据时，吞吐量取决于最低的链路速率。</li>
-</ul>
-</li>
 <li>ISO/OSI 七层模型：物理层、数据链路层、网络层、传输层、会话层、表示层、应用层。</li>
 <li>TCP/IP 四层模型：网络接口层(物理层，数据链路层)、网络层、传输层、应用层。</li>
 </ul>
-<h2 id="Chapter-2-应用层">Chapter 2: 应用层</h2>
-<p>本章在考试中不作要求，暂简要记录.</p>
-<ul>
-<li>CS 架构: 客户端-服务器(client-server)、P2P 架构(peer-to-peer)。</li>
-<li>HTTP: 超文本传输协议，基于 TCP 协议，无状态。</li>
-<li>DNS: 域名系统，用于将域名转换为 IP 地址，分别由递归查询和迭代查询实现。</li>
-<li>SMTP: 简单邮件传输协议，用于发送邮件。</li>
-<li>FTP: 文件传输协议，用于文件传输。</li>
-<li>套接字(socket): 进程与计算机网络之间的接口，用于进程间的通信。</li>
-<li>因特网运输服务分类：
-<ul>
-<li>是否面向连接</li>
-<li>是否可靠</li>
-<li>是否提供流量控制</li>
-</ul>
-</li>
-</ul>
-<h2 id="Chapter-3-运输层-传输层">Chapter 3: 运输层(传输层)</h2>
+<h2 id="chapter-2-应用层">Chapter 2: 应用层</h2>
+<p>本章在考试中不作要求，暂简要记录. - CS 架构: 客户端-服务器(client-server)、P2P 架构(peer-to-peer)。 - HTTP: 超文本传输协议，基于 TCP 协议，无状态。 - DNS: 域名系统，用于将域名转换为 IP 地址，分别由递归查询和迭代查询实现。 - SMTP: 简单邮件传输协议，用于发送邮件。 - FTP: 文件传输协议，用于文件传输。 - 套接字(socket): 进程与计算机网络之间的接口，用于进程间的通信。 - 因特网运输服务分类： - 是否面向连接 - 是否可靠 - 是否提供流量控制</p>
+<h2 id="chapter-3-运输层传输层">Chapter 3: 运输层(传输层)</h2>
 <ul>
 <li>报文段(segment): 传输层的数据单元。注意：不同的分组在不同层次有不同的称呼，在网络层称为分组(packet)，在链路层称为帧(frame)，物理层是比特(bit)层次的传输。</li>
 <li>传输层提供了进程之间的逻辑通信。</li>
@@ -421,7 +400,7 @@ mjx-container[display="true"] + br {
 <li>多路分解：在目的主机，传输层协议读取报文段中的字段，标识出接收套接字，进而通过该套接字，将传输层的报文段中的数据交付给正确的套接字。</li>
 <li>传输层报文段中的端口字段：共 16 位，用于标识主机中的进程，其中 0-1023 为知名端口，1024-49151 为注册端口，49152-65535 为动态/私有端口。</li>
 <li>TCP 套接字：为四元组，即源 IP 地址、源端口号、目的 IP 地址、目的端口号。</li>
-<li>…</li>
+<li>...</li>
 </ul>
 <!-- flag of hidden posts -->
     </div>
@@ -530,7 +509,7 @@ mjx-container[display="true"] + br {
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Chapter-1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">Chapter 1: 计算机网络概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Chapter-2-%E5%BA%94%E7%94%A8%E5%B1%82"><span class="nav-number">2.</span> <span class="nav-text">Chapter 2: 应用层</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Chapter-3-%E8%BF%90%E8%BE%93%E5%B1%82-%E4%BC%A0%E8%BE%93%E5%B1%82"><span class="nav-number">3.</span> <span class="nav-text">Chapter 3: 运输层(传输层)</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#chapter-1-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0"><span class="nav-number">1.</span> <span class="nav-text">Chapter 1: 计算机网络概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chapter-2-%E5%BA%94%E7%94%A8%E5%B1%82"><span class="nav-number">2.</span> <span class="nav-text">Chapter 2: 应用层</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chapter-3-%E8%BF%90%E8%BE%93%E5%B1%82%E4%BC%A0%E8%BE%93%E5%B1%82"><span class="nav-number">3.</span> <span class="nav-text">Chapter 3: 运输层(传输层)</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
