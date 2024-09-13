@@ -302,6 +302,83 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/13/Monotone-Stack/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Cookiecoolkid">
+      <meta itemprop="description" content="Coolkid With Cookie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cookiecoolkid">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/09/13/Monotone-Stack/" class="post-title-link" itemprop="url">Monotone Stack</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-09-13 11:46:28 / 修改时间：11:50:35" itemprop="dateCreated datePublished" datetime="2024-09-13T11:46:28+08:00">2024-09-13</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index"><span itemprop="name">Algorithm</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <div class="figure">
+<img src="Prob1.png" alt="Prob1">
+<p class="caption">Prob1</p>
+</div>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">"problem1.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">60</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> M = <span class="number">5</span>;</span><br><span class="line"><span class="type">int</span> a[N][M];</span><br><span class="line"><span class="type">int</span> s[N];</span><br><span class="line"><span class="type">int</span> tt = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Solution::summer</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> ret = <span class="number">0</span>;</span><br><span class="line"><span class="comment">//TODO 在此处补充代码，输入N、K，以及N行 每行5个数字，输出ret表示最终小蓝鲸能获取的最大海岛币数量</span></span><br><span class="line">    <span class="type">int</span> n, k;</span><br><span class="line">    std::cin &gt;&gt; n &gt;&gt; k;</span><br><span class="line"></span><br><span class="line">    ret = k;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; M; j++) {</span><br><span class="line">            std::cin &gt;&gt; a[i][j];</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> day = <span class="number">1</span>; day &lt;= n; day++) {</span><br><span class="line">        <span class="comment">// 从 i 出发</span></span><br><span class="line">        <span class="type">int</span> money = ret;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= M; i++) {</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; M; j++) {</span><br><span class="line">                <span class="keyword">while</span> (tt &amp;&amp; a[day][s[tt]] &gt; a[day][(j + i) % M]) {</span><br><span class="line">                    <span class="type">int</span> top = s[tt];</span><br><span class="line">                    tt --;</span><br><span class="line">                    <span class="type">int</span> num = <span class="number">0</span>;</span><br><span class="line">                    <span class="type">int</span> rem = <span class="number">0</span>;</span><br><span class="line">                    <span class="keyword">if</span> (tt) {</span><br><span class="line">                        tt = <span class="number">1</span>;</span><br><span class="line">                        num = (money / a[day][s[tt]]);</span><br><span class="line">                        rem = money % a[day][s[tt]];</span><br><span class="line">                    }</span><br><span class="line">                    ret = std::<span class="built_in">max</span>(ret, rem + num * a[day][top]);</span><br><span class="line">                }</span><br><span class="line">                s[++tt] = (i + j) % M;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        tt = <span class="number">0</span>;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    std::cout &lt;&lt; ret &lt;&lt; std::endl;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<div class="figure">
+<img src="Prob2.png" alt="Prob2">
+<p class="caption">Prob2</p>
+</div>
+<figure class="highlight c++"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">"problem1.h"</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">10010</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> stk[N];</span><br><span class="line"><span class="type">int</span> t = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> b[N];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Solution::winter</span><span class="params">()</span></span>{</span><br><span class="line">    <span class="type">int</span> ret = <span class="number">0</span>;</span><br><span class="line"><span class="comment">//TODO 在此处补充代码</span></span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n; </span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) std::cin &gt;&gt; b[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i ++ )</span><br><span class="line">    {</span><br><span class="line">        <span class="keyword">while</span> (t &amp;&amp; b[stk[t]] &gt; b[i]) {</span><br><span class="line">            ret = std::<span class="built_in">max</span>(ret, b[stk[t]] - b[stk[<span class="number">1</span>]]);</span><br><span class="line">            t -- ;</span><br><span class="line">        }</span><br><span class="line">        stk[ ++ t] = i;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (t) ret = std::<span class="built_in">max</span>(ret, b[stk[t]] - b[stk[<span class="number">1</span>]]);</span><br><span class="line"></span><br><span class="line">    std::cout&lt;&lt;ret&lt;&lt;std::endl;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/05/CryptoTheory1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -383,7 +460,7 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/DP/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -397,7 +474,7 @@ mjx-container[display="true"] + br {
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2024/09/02/DP/" class="post-title-link" itemprop="url">DP</a>
+            <a href="/2024/09/02/Dynamic-Programming/" class="post-title-link" itemprop="url">Dynamic Programming</a>
         </h2>
 
         <div class="post-meta">
@@ -414,7 +491,7 @@ mjx-container[display="true"] + br {
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-09-12 20:49:13" itemprop="dateModified" datetime="2024-09-12T20:49:13+08:00">2024-09-12</time>
+                <time title="修改时间：2024-09-13 11:45:52" itemprop="dateModified" datetime="2024-09-13T11:45:52+08:00">2024-09-13</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -448,7 +525,7 @@ mjx-container[display="true"] + br {
 </ul>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2024/09/02/DP/#more" rel="contents">
+              <a class="btn" href="/2024/09/02/Dynamic-Programming/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -1047,88 +1124,6 @@ mjx-container[display="true"] + br {
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Cookiecoolkid">
-      <meta itemprop="description" content="Coolkid With Cookie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Cookiecoolkid">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/06/27/os-code-virtualization/" class="post-title-link" itemprop="url">os-code-virtualization</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-06-27 16:32:08" itemprop="dateCreated datePublished" datetime="2024-06-27T16:32:08+08:00">2024-06-27</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-09-10 11:42:57" itemprop="dateModified" datetime="2024-09-10T11:42:57+08:00">2024-09-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Operation-System/" itemprop="url" rel="index"><span itemprop="name">Operation System</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><strong>All code is taken from NJU-2024-operation-system by jyy.</strong> please check <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/2024/" class="uri">https://jyywiki.cn/OS/2024/</a></p>
-<p>forked-code： <a href="https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization" class="uri">https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/06/27/os-code-virtualization/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1200,7 +1195,7 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1213,7 +1208,7 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>

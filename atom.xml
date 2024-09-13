@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-09-10T03:42:57.708Z</updated>
+  <updated>2024-09-13T03:50:35.840Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Monotone Stack</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/13/Monotone-Stack/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/13/Monotone-Stack/</id>
+    <published>2024-09-13T03:46:28.000Z</published>
+    <updated>2024-09-13T03:50:35.840Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="OJ" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/OJ/"/>
+    
+  </entry>
   
   <entry>
     <title>CryptoTheory1</title>
@@ -36,11 +61,11 @@
   </entry>
   
   <entry>
-    <title>DP</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/DP/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/DP/</id>
+    <title>Dynamic Programming</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/</id>
     <published>2024-09-02T01:26:24.000Z</published>
-    <updated>2024-09-12T12:49:13.448Z</updated>
+    <updated>2024-09-13T03:45:52.887Z</updated>
     
     
     <summary type="html">&lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
