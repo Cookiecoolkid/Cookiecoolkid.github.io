@@ -85,7 +85,7 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/</id>
     <published>2024-09-02T01:26:24.000Z</published>
-    <updated>2024-09-19T06:49:25.037Z</updated>
+    <updated>2024-09-19T06:51:31.534Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -95,9 +95,9 @@
 &lt;/ul&gt;
 &lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;状态表示(思考维度 如二维f[i][j])&lt;/li&gt;
-&lt;li&gt;集合：f[i][j] 表示哪些情况&lt;/li&gt;
-&lt;li&gt;属性：f[i][j] 表示集合里的 MAX/MIN/数量&lt;/li&gt;
+&lt;li&gt;状态表示(思考维度 如二维&lt;code&gt;f[i][j]&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;集合：&lt;code&gt;f[i][j]&lt;/code&gt; 表示哪些情况&lt;/li&gt;
+&lt;li&gt;属性：&lt;code&gt;f[i][j]&lt;/code&gt; 表示集合里的 MAX/MIN/数量&lt;/li&gt;
 &lt;li&gt;状态计算&lt;/li&gt;
 &lt;li&gt;划分集合(不重不漏)&lt;/li&gt;
 &lt;li&gt;状态转移方程&lt;/li&gt;
