@@ -81,14 +81,19 @@
   </entry>
   
   <entry>
-    <title>Dynamic Programming</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming/</id>
+    <title>Dynamic Programming I</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/</id>
     <published>2024-09-02T01:26:24.000Z</published>
-    <updated>2024-09-13T11:46:39.177Z</updated>
+    <updated>2024-09-19T06:49:25.037Z</updated>
     
     
-    <summary type="html">&lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;二维数字三角形模型 🔺&lt;/li&gt;
+&lt;li&gt;最长上升自序列模型 📉&lt;/li&gt;
+&lt;li&gt;背包问题 🎒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;状态表示(思考维度 如二维f[i][j])&lt;/li&gt;
 &lt;li&gt;集合：f[i][j] 表示哪些情况&lt;/li&gt;
