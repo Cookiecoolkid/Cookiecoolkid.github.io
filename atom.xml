@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-09-18T12:26:02.560Z</updated>
+  <updated>2024-09-19T07:17:10.637Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dynamic Programming II</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/</id>
+    <published>2024-09-19T06:59:30.000Z</published>
+    <updated>2024-09-19T07:17:10.637Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;状态机模型 💡&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Algorithm/"/>
+    
+    <category term="AcWing" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/AcWing/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown export pdf</title>
@@ -85,12 +108,12 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/</id>
     <published>2024-09-02T01:26:24.000Z</published>
-    <updated>2024-09-19T06:54:24.685Z</updated>
+    <updated>2024-09-19T07:16:15.457Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
 &lt;li&gt;二维数字三角形模型 🔺&lt;/li&gt;
-&lt;li&gt;最长上升自序列模型 📉&lt;/li&gt;
+&lt;li&gt;最长上升自序列模型 📈&lt;/li&gt;
 &lt;li&gt;背包问题 🎒&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
