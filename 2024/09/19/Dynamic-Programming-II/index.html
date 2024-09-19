@@ -27,12 +27,15 @@
 <meta property="og:site_name" content="Cookiecoolkid">
 <meta property="og:description" content="状态机模型 💡">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/StateMachine1.png">
+<meta property="og:image" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/StateMachine2.png">
 <meta property="article:published_time" content="2024-09-19T06:59:30.000Z">
-<meta property="article:modified_time" content="2024-09-19T07:17:10.637Z">
+<meta property="article:modified_time" content="2024-09-19T08:10:31.263Z">
 <meta property="article:author" content="Cookiecoolkid">
 <meta property="article:tag" content="Algorithm">
 <meta property="article:tag" content="AcWing">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/StateMachine1.png">
 
 <link rel="canonical" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/">
 
@@ -331,7 +334,7 @@ mjx-container[display="true"] + br {
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2024-09-19 14:59:30 / 修改时间：15:17:10" itemprop="dateCreated datePublished" datetime="2024-09-19T14:59:30+08:00">2024-09-19</time>
+              <time title="创建时间：2024-09-19 14:59:30 / 修改时间：16:10:31" itemprop="dateCreated datePublished" datetime="2024-09-19T14:59:30+08:00">2024-09-19</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -366,6 +369,18 @@ mjx-container[display="true"] + br {
 <li><span id="more"></span></li>
 </ul>
 <h2 id="状态机模型">状态机模型</h2>
+<div class="figure">
+<img src="StateMachine1.png" alt="StateMachine1">
+<p class="caption">StateMachine1</p>
+</div>
+<blockquote>
+<figure class="highlight plaintext"><figcaption><span>表示当前没有选择盗窃</span></figcaption><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">```1``` 表示当前选择盗窃</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">```mermaid</span><br><span class="line">graph TD</span><br><span class="line">   A[0] -- No --&gt; A[0]</span><br><span class="line">   A[0] -- Yes --&gt; B[1]</span><br><span class="line">   B[1] -- No --&gt; A[0]</span><br></pre></td></tr></tbody></table></figure>
+</blockquote>
+<figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> INF = <span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">100010</span>;</span><br><span class="line"><span class="type">int</span> T;</span><br><span class="line"><span class="type">int</span> dp[N][<span class="number">2</span>];</span><br><span class="line"><span class="type">int</span> w[N];</span><br><span class="line"><span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (T --) {</span><br><span class="line">        <span class="built_in">memset</span>(dp, <span class="number">0</span>, <span class="built_in">sizeof</span>(dp));</span><br><span class="line">        cin &gt;&gt; n;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++ ) cin &gt;&gt; w[i];</span><br><span class="line">        </span><br><span class="line">        dp[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        dp[<span class="number">0</span>][<span class="number">1</span>] = -INF;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) {</span><br><span class="line">            dp[i][<span class="number">0</span>] = <span class="built_in">max</span>(dp[i - <span class="number">1</span>][<span class="number">0</span>], dp[i - <span class="number">1</span>][<span class="number">1</span>]);</span><br><span class="line">            dp[i][<span class="number">1</span>] = dp[i - <span class="number">1</span>][<span class="number">0</span>] + w[i];</span><br><span class="line">        }</span><br><span class="line">        </span><br><span class="line">        cout &lt;&lt; <span class="built_in">max</span>(dp[n][<span class="number">0</span>], dp[n][<span class="number">1</span>]) &lt;&lt; endl;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<div class="figure">
+<img src="StateMachine2.png" alt="StateMachine2">
+<p class="caption">StateMachine2</p>
+</div>
 
     </div>
 
