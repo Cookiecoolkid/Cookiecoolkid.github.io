@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-09-19T08:38:30.908Z</updated>
+  <updated>2024-09-20T02:39:15.747Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Git-Usage</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/20/Git-Usage/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/20/Git-Usage/</id>
+    <published>2024-09-20T02:31:37.000Z</published>
+    <updated>2024-09-20T02:39:15.747Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Dynamic Programming II</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/</id>
     <published>2024-09-19T06:59:30.000Z</published>
-    <updated>2024-09-19T08:38:30.908Z</updated>
+    <updated>2024-09-19T08:45:52.495Z</updated>
     
     
     <summary type="html">&lt;ul&gt;
@@ -416,25 +439,6 @@
     
     
     <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Journal-1</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/</id>
-    <published>2024-06-05T11:08:05.000Z</published>
-    <updated>2024-09-10T03:42:57.722Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
     
   </entry>
   
