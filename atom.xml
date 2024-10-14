@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-09-20T08:30:33.716Z</updated>
+  <updated>2024-10-14T07:03:02.665Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/</id>
+    <published>2024-10-14T02:49:39.000Z</published>
+    <updated>2024-10-14T07:03:02.665Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="MySQL" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/MySQL/"/>
+    
+  </entry>
   
   <entry>
     <title>Git-Usage</title>
@@ -416,25 +441,6 @@
     
     
     <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Probability Theory Review</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/</id>
-    <published>2024-06-11T02:01:29.000Z</published>
-    <updated>2024-09-10T03:42:57.722Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Probability-Theory/"/>
-    
-    
-    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
     
   </entry>
   

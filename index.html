@@ -302,6 +302,121 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Cookiecoolkid">
+      <meta itemprop="description" content="Coolkid With Cookie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cookiecoolkid">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/10/14/MySQL/" class="post-title-link" itemprop="url">MySQL</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-10-14 10:49:39 / 修改时间：15:03:02" itemprop="dateCreated datePublished" datetime="2024-10-14T10:49:39+08:00">2024-10-14</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/MySQL/" itemprop="url" rel="index"><span itemprop="name">MySQL</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="启动mysql服务">启动MySQL服务</h1>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo service mysql start</span><br><span class="line">mysql -u root -p</span><br></pre></td></tr></tbody></table></figure>
+<h1 id="mysql-基本操作">MySQL 基本操作</h1>
+<h2 id="mysql-语句分类">MySQL 语句分类</h2>
+<ul>
+<li>DDL(Data Definition Language)：数据定义语言，用来定义数据库对象：数据库、表、列等。关键字：create、drop、alter等</li>
+<li>DML(Data Manipulation Language)：数据操作语言，用来对数据库中表的数据进行增删改。关键字：insert、delete、update等</li>
+<li>DQL(Data Query Language)：数据查询语言，用来查询数据库中表的记录。关键字：select、where等</li>
+<li>DCL(Data Control Language)：数据控制语言，用来定义访问权限和安全级别。关键字：grant、revoke等</li>
+<li>TCL(Transaction Control Language)：事务控制语言，用来控制事务。关键字：commit、rollback等</li>
+</ul>
+<h2 id="创建数据库">创建数据库</h2>
+<figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> database test;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="导入数据">导入数据</h2>
+<figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br><span class="line">use test;</span><br><span class="line">source /home/xxx/xxx.sql;</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="查看数据">查看数据</h2>
+<figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">show</span> databases;             <span class="operator">/</span><span class="operator">/</span> 查看所有数据库</span><br><span class="line"><span class="keyword">show</span> tables;                <span class="operator">/</span><span class="operator">/</span> 查看所有表</span><br><span class="line"><span class="keyword">desc</span> table_name;            <span class="operator">/</span><span class="operator">/</span> 查看表结构</span><br><span class="line"><span class="keyword">select</span> version();           <span class="operator">/</span><span class="operator">/</span> 查看MySQL版本</span><br><span class="line"><span class="keyword">select</span> database();          <span class="operator">/</span><span class="operator">/</span> 查看当前数据库</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="select-语句">select 语句</h3>
+<ul>
+<li><p>关键字顺序 </p><figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="keyword">distinct</span> ... <span class="keyword">from</span> ... <span class="keyword">where</span> ... <span class="keyword">group</span> <span class="keyword">by</span> ... <span class="keyword">having</span> ... <span class="keyword">order</span> <span class="keyword">by</span> ... limit ...;</span><br></pre></td></tr></tbody></table></figure><p></p></li>
+<li>查询字段，字段之间用逗号隔开，用 <code>as</code> 关键字为字段取别名，并且可以使用数学运算符</li>
+<li>条件查询，使用 <code>where</code> 关键字，可以使用 <code>=</code>、<code>!=</code>、<code>&lt;</code>、<code>&gt;</code>、<code>&lt;=</code>、<code>&gt;=</code>、<code>between</code>、<code>like</code>、<code>in</code>、<code>is null</code>、<code>is not null</code> 等条件</li>
+<li>逻辑查询，使用 <code>and</code>、<code>or</code>、<code>not</code>等逻辑关键字 <figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> table_name <span class="keyword">where</span> field1 <span class="operator">=</span> <span class="string">'value1'</span> <span class="keyword">and</span> field2 <span class="operator">=</span> <span class="string">'value2'</span>;</span><br></pre></td></tr></tbody></table></figure></li>
+<li>排序查询，使用 <code>order by</code> 关键字，可以使用 <code>asc</code>、<code>desc</code> 关键字 <figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> table_name <span class="keyword">order</span> <span class="keyword">by</span> field1 <span class="keyword">asc</span>;</span><br></pre></td></tr></tbody></table></figure></li>
+<li><p>分组查询，使用 <code>group by</code> 关键字 </p><figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> field1, <span class="built_in">count</span>(<span class="operator">*</span>) <span class="keyword">from</span> table_name <span class="keyword">group</span> <span class="keyword">by</span> field1;</span><br></pre></td></tr></tbody></table></figure><p></p></li>
+<li>单行处理函数</li>
+<li><code>concat()</code>：连接字符串</li>
+<li><code>substring()</code>：截取字符串</li>
+<li><code>instr()</code>：查找字符串</li>
+<li><code>length()</code>：字符串长度</li>
+<li><code>trim()</code>：去除字符串两端空格</li>
+<li><code>ltrim()</code>：去除字符串左端空格</li>
+<li><code>rtrim()</code>：去除字符串右端空格</li>
+<li><code>lower()</code>：转换为小写</li>
+<li><code>upper()</code>：转换为大写</li>
+<li>多行处理函数</li>
+<li><code>count()</code>：统计行数</li>
+<li><code>sum()</code>：求和</li>
+<li><code>avg()</code>：平均值</li>
+<li><code>max()</code>：最大值</li>
+<li><code>min()</code>：最小值</li>
+<li><code>group_concat()</code>：将组中值连接为字符串</li>
+<li><p><code>group by</code> 可以配合 <code>having</code> 使用 </p><figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> field1, <span class="built_in">count</span>(<span class="operator">*</span>) <span class="keyword">from</span> table_name <span class="keyword">group</span> <span class="keyword">by</span> field1 <span class="keyword">having</span> <span class="built_in">count</span>(<span class="operator">*</span>) <span class="operator">&gt;</span> <span class="number">1</span>;</span><br></pre></td></tr></tbody></table></figure> ### insert 语句 <figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> table_name (field1, field2) <span class="keyword">values</span> (<span class="string">'value1'</span>, <span class="string">'value2'</span>);</span><br></pre></td></tr></tbody></table></figure><p></p></li>
+</ul>
+<h3 id="update-语句">update 语句</h3>
+<figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">update</span> table_name <span class="keyword">set</span> field1 <span class="operator">=</span> <span class="string">'value1'</span> <span class="keyword">where</span> field2 <span class="operator">=</span> <span class="string">'value2'</span>;</span><br></pre></td></tr></tbody></table></figure>
+<h3 id="delete-语句">delete 语句</h3>
+<figure class="highlight sql"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">delete</span> <span class="keyword">from</span> table_name <span class="keyword">where</span> field1 <span class="operator">=</span> <span class="string">'value1'</span>;</span><br></pre></td></tr></tbody></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/20/Git-Usage/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1033,87 +1148,6 @@ mjx-container[display="true"] + br {
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/01/FAT32-spec/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Cookiecoolkid">
-      <meta itemprop="description" content="Coolkid With Cookie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Cookiecoolkid">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/07/01/FAT32-spec/" class="post-title-link" itemprop="url">FAT32-spec</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-07-01 16:19:41" itemprop="dateCreated datePublished" datetime="2024-07-01T16:19:41+08:00">2024-07-01</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-09-10 11:42:57" itemprop="dateModified" datetime="2024-09-10T11:42:57+08:00">2024-09-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Operation-System/" itemprop="url" rel="index"><span itemprop="name">Operation System</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Check the FAT32 file system specification. <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf" class="uri">https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/07/01/FAT32-spec/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1185,20 +1219,20 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">21</span>
+          <span class="site-state-item-count">22</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-count">16</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
