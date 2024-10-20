@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-10-14T07:03:02.665Z</updated>
+  <updated>2024-10-20T05:36:23.204Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -17,20 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux 高性能服务器编程</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/20/Linux-%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BC%96%E7%A8%8B/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/20/Linux-%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BC%96%E7%A8%8B/</id>
+    <published>2024-10-20T02:31:53.000Z</published>
+    <updated>2024-10-20T05:36:23.204Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;🌟 参考资料： Linux 高性能服务器编程 (游双著)&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Linux" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Linux/"/>
+    
+    <category term="C++" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/C/"/>
+    
+    <category term="网络编程" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MySQL</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/</id>
     <published>2024-10-14T02:49:39.000Z</published>
-    <updated>2024-10-14T07:03:02.665Z</updated>
+    <updated>2024-10-20T02:34:28.536Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;启动mysql服务&quot;&gt;启动MySQL服务&lt;/h1&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo service mysql start&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mysql -u root -p&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
@@ -422,25 +440,6 @@
     
     
     <category term="Numerical Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Numerical-Method/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Journal-2</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/</id>
-    <published>2024-06-15T16:19:17.000Z</published>
-    <updated>2024-09-10T03:42:57.722Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
     
   </entry>
   
