@@ -60,25 +60,6 @@
   </entry>
   
   <entry>
-    <title>Git-Usage</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/20/Git-Usage/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/20/Git-Usage/</id>
-    <published>2024-09-20T02:31:37.000Z</published>
-    <updated>2024-09-20T08:30:33.716Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;Barfoo&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    
-    <category term="git" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Dynamic Programming II</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/</id>
@@ -221,30 +202,6 @@
     
     
     <category term="驾考" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/%E9%A9%BE%E8%80%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2.两数相加</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/20/2-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/20/2-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/</id>
-    <published>2024-07-20T06:40:14.000Z</published>
-    <updated>2024-09-10T03:42:57.708Z</updated>
-    
-    
-    <summary type="html">&lt;h4 id=&quot;题目描述&quot;&gt;题目描述 📝&lt;/h4&gt;
-&lt;p&gt;给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。&lt;/p&gt;
-&lt;p&gt;请你将两个数相加，并以相同形式返回一个表示和的链表。&lt;/p&gt;
-&lt;p&gt;你可以假设除了数字 0 之外，这两个数都不会以 0 开头。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="LeetCode" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/LeetCode/"/>
-    
-    
-    <category term="LeetCode" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/LeetCode/"/>
-    
-    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Algorithm/"/>
     
   </entry>
   
@@ -440,6 +397,44 @@
     
     
     <category term="Numerical Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Numerical-Method/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Journal-2</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/</id>
+    <published>2024-06-15T16:19:17.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Probability Theory Review</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/</id>
+    <published>2024-06-11T02:01:29.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Probability-Theory/"/>
+    
+    
+    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
     
   </entry>
   
