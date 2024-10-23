@@ -44,7 +44,7 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/14/MySQL/</id>
     <published>2024-10-14T02:49:39.000Z</published>
-    <updated>2024-10-20T02:34:28.536Z</updated>
+    <updated>2024-10-23T10:51:03.556Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;启动mysql服务&quot;&gt;启动MySQL服务&lt;/h1&gt;
@@ -78,51 +78,6 @@
     <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Algorithm/"/>
     
     <category term="AcWing" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/AcWing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown export pdf</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/18/markdown-export-pdf/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/18/markdown-export-pdf/</id>
-    <published>2024-09-18T12:19:54.000Z</published>
-    <updated>2024-09-18T12:26:02.560Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;如何正确在 vscode 中导出 markdown 为 pdf 😍😍😍&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="markdown" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/markdown/"/>
-    
-    <category term="vscode" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/markdown/vscode/"/>
-    
-    
-    <category term="markdown" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/markdown/"/>
-    
-    <category term="vscode" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Monotone Stack</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/13/Monotone-Stack/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/13/Monotone-Stack/</id>
-    <published>2024-09-13T03:46:28.000Z</published>
-    <updated>2024-09-13T08:05:25.432Z</updated>
-    
-    
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;Advanced-Programming&lt;/li&gt;
-&lt;li&gt;OJ - 1&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Algorithm/"/>
-    
-    
-    <category term="OJ" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/OJ/"/>
     
   </entry>
   
@@ -435,6 +390,25 @@
     
     
     <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Journal-1</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/</id>
+    <published>2024-06-05T11:08:05.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
+    
+    
+    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
     
   </entry>
   
