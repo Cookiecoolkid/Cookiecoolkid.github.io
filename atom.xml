@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-10-30T06:14:04.723Z</updated>
+  <updated>2024-10-30T07:02:51.024Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/http-format/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/http-format/</id>
     <published>2024-10-30T05:14:24.000Z</published>
-    <updated>2024-10-30T06:14:04.723Z</updated>
+    <updated>2024-10-30T07:02:51.024Z</updated>
     
     
-    <summary type="html">&lt;p&gt;reference: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;reference: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&quot; class=&quot;uri&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages&lt;/a&gt;&lt;/p&gt;</summary>
     
     
+    
+    <category term="web" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/web/"/>
     
     
     <category term="web" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/web/"/>
@@ -66,7 +68,7 @@
     <updated>2024-10-23T10:51:03.556Z</updated>
     
     
-    <summary type="html">&lt;h1&gt;启动MySQL服务&lt;/h1&gt;
+    <summary type="html">&lt;h1 id=&quot;启动mysql服务&quot;&gt;启动MySQL服务&lt;/h1&gt;
 &lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;sudo service mysql start&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mysql -u root -p&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
@@ -87,8 +89,7 @@
     
     
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;状态机模型 💡&lt;/li&gt;
-&lt;/ul&gt;</summary>
+&lt;li&gt;状态机模型 💡&lt;/li&gt;&lt;/ul&gt;</summary>
     
     
     
@@ -135,18 +136,12 @@
 &lt;/ul&gt;
 &lt;h4 id=&quot;动态规划&quot;&gt;动态规划&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;状态表示(思考维度 如二维&lt;code&gt;f[i][j]&lt;/code&gt;)
-&lt;ul&gt;
+&lt;li&gt;状态表示(思考维度 如二维&lt;code&gt;f[i][j]&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;集合：&lt;code&gt;f[i][j]&lt;/code&gt; 表示哪些情况&lt;/li&gt;
 &lt;li&gt;属性：&lt;code&gt;f[i][j]&lt;/code&gt; 表示集合里的 MAX/MIN/数量&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;状态计算
-&lt;ul&gt;
+&lt;li&gt;状态计算&lt;/li&gt;
 &lt;li&gt;划分集合(不重不漏)&lt;/li&gt;
 &lt;li&gt;状态转移方程&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     
@@ -168,7 +163,7 @@
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;科目一，启动！🚘&quot;&gt;科目一，启动！🚘&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;科目一启动&quot;&gt;科目一，启动！🚘&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;12分记分题&lt;/li&gt;
 &lt;li&gt;9分记分题&lt;/li&gt;
@@ -213,8 +208,7 @@
     <updated>2024-09-10T03:42:57.721Z</updated>
     
     
-    <summary type="html">&lt;p&gt;Check the FAT32 file system specification.&lt;br&gt;
-&lt;a href=&quot;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&quot;&gt;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Check the FAT32 file system specification. &lt;a href=&quot;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -252,10 +246,8 @@
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/persistence&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -274,10 +266,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/kernel&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -296,10 +286,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.738Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/virtualization&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -311,25 +299,6 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
   </entry>
   
   <entry>
-    <title>emoji &amp; mathjax</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/</id>
-    <published>2024-06-26T10:33:01.000Z</published>
-    <updated>2024-09-10T03:42:57.737Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;最近希望在 hexo 上加上支持渲染 emoji 的功能，但是此时发现 mathjax 无法正常渲染了.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/hexo/"/>
-    
-    
-    <category term="hexo" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>os-code-concurrency</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/</id>
@@ -337,10 +306,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.737Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -359,10 +326,8 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.737Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt;&lt;br&gt;
-please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;forked-code：&lt;br&gt;
-&lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
@@ -381,10 +346,7 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.722Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇计算方法期末复习的小笔记. 课程资料取自 &amp;gt; 计算方法 Numerical method (Spring 2024) By 刘景铖&lt;/p&gt;</summary>
     
     
     
@@ -422,10 +384,7 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.722Z</updated>
     
     
-    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
     
     
     
@@ -444,8 +403,7 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     <updated>2024-09-10T03:42:57.722Z</updated>
     
     
-    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~&lt;br&gt;
-应该是会好好分类的，不用担心找不到.                     ——2024.6.5&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
     
     
     
