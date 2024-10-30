@@ -302,6 +302,106 @@ mjx-container[display="true"] + br {
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/http-format/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Cookiecoolkid">
+      <meta itemprop="description" content="Coolkid With Cookie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cookiecoolkid">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/10/30/http-format/" class="post-title-link" itemprop="url">http/1.x format</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-10-30 13:14:24 / 修改时间：13:58:09" itemprop="dateCreated datePublished" datetime="2024-10-30T13:14:24+08:00">2024-10-30</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>reference: <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages" class="uri">https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages</a></p>
+<!---more--->
+<p>HTTP messages include request messages and response messages. Both have the same structure, consisting of three parts: the start line, headers, an empty line, and the body.</p>
+<div class="figure">
+<img src="httpstructure.png" alt="httpstructure">
+<p class="caption">httpstructure</p>
+</div>
+<h3 id="http-request-message">http request message</h3>
+<h4 id="start-line">start line</h4>
+<p>http request message is also called request line，include three parts: http method, request target and protocol version.</p>
+<ul>
+<li>An HTTP method, a verb (like GET, PUT or POST) or a noun (like HEAD or OPTIONS), that describes the action to be performed.</li>
+<li>The request target, usually a URL, or the absolute path of the protocol, port, and domain are usually characterized by the request context.</li>
+<li>The HTTP version, which defines the structure of the remaining message, acting as an indicator of the expected version to use for the response.</li>
+</ul>
+<h4 id="headers">headers</h4>
+<p>HTTP headers from a request follow the same basic structure of an HTTP header: a case-insensitive string followed by a colon (':') and a value whose structure depends upon the header. The whole header, including the value, is then separated by a CRLF (Carriage Return + Line Feed, ""), reference: <a target="_blank" rel="noopener" href="https://www.rfc-editor.org/rfc/rfc2616#section-2.2">RFC2616</a></p>
+<p>Many different headers can appear in requests. They can be divided in several groups: - General headers - Request headers - Representation headers</p>
+<div class="figure">
+<img src="httpheader.png" alt="httpheader">
+<p class="caption">httpheader</p>
+</div>
+<h4 id="body">body</h4>
+<p>Not all requests have a body. For example, a GET request must not have a body. However, a POST request must include a body. The body contains the data that the server will process. The body can be of any type, including text, JSON, multimedia, or any other format.</p>
+<p>Bodies can be divided into two categories: - Single-resource bodies: consisting of one single file, defined by the two headers: Content-Type and Content-Length. - Multiple-resource bodies: consisting of a multipart body, each containing a different bit of information. This is typically associated with HTML Forms.</p>
+<h3 id="http-response-message">http response message</h3>
+<h4 id="start-line-1">start line</h4>
+<p>http response message is also called status line, include three parts: protocol version, status code and status text.</p>
+<p>Example: <code>HTTP/1.1 404 Not Found.</code></p>
+<h4 id="headers-1">headers</h4>
+<p>This is similar to request headers, but with different headers.</p>
+<div class="figure">
+<img src="reponseheader.png" alt="reponseheader">
+<p class="caption">reponseheader</p>
+</div>
+<h4 id="body-1">body</h4>
+<p>Bodies can be broadly divided into three categories:</p>
+<ul>
+<li>Single-resource bodies, consisting of a single file of known length, defined by the two headers: Content-Type and Content-Length.</li>
+<li>Single-resource bodies, consisting of a single file of unknown length, encoded by chunks with Transfer-Encoding set to chunked.</li>
+<li>Multiple-resource bodies, consisting of a multipart body, each containing a different section of information. These are relatively rare.</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/20/Linux-%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BC%96%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1049,88 +1149,6 @@ mjx-container[display="true"] + br {
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Cookiecoolkid">
-      <meta itemprop="description" content="Coolkid With Cookie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Cookiecoolkid">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/06/28/os-code-persistence/" class="post-title-link" itemprop="url">os-code-persistence</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2024-06-28 16:19:41" itemprop="dateCreated datePublished" datetime="2024-06-28T16:19:41+08:00">2024-06-28</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-09-10 11:42:57" itemprop="dateModified" datetime="2024-09-10T11:42:57+08:00">2024-09-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Operation-System/" itemprop="url" rel="index"><span itemprop="name">Operation System</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p><strong>All code is taken from NJU-2024-operation-system by jyy.</strong> please check <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/2024/" class="uri">https://jyywiki.cn/OS/2024/</a></p>
-<p>forked-code： <a href="https://github.com/Cookiecoolkid/jyyos/tree/master/persistence" class="uri">https://github.com/Cookiecoolkid/jyyos/tree/master/persistence</a></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/06/28/os-code-persistence/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1202,7 +1220,7 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">19</span>
+          <span class="site-state-item-count">20</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1215,7 +1233,7 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">16</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
