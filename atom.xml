@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-10-30T07:02:51.024Z</updated>
+  <updated>2024-12-25T15:58:48.393Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Design Pattern: Template Method</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/25/Design-Pattern-Template-Method/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/25/Design-Pattern-Template-Method/</id>
+    <published>2024-12-25T15:46:55.000Z</published>
+    <updated>2024-12-25T15:58:48.393Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;万变不离其宗，乃是所谓稳中求变。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;key word: 早(晚)绑定，稳定，变化，虚函数，函数指针，回调函数&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Design Pattern" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Design-Pattern/"/>
+    
+    
+    <category term="Template Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Template-Method/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>muduo</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/muduo/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/muduo/</id>
+    <published>2024-10-30T08:33:15.000Z</published>
+    <updated>2024-10-30T11:05:59.917Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;reference: Linux多线程服务端编程：使用muduo C++网络库 -- 陈硕&lt;/strong&gt; &lt;code&gt;muduo repository&lt;/code&gt;: &lt;a href=&quot;https://github.com/chenshuo/muduo&quot;&gt;[muduo](https://github.com/chenshuo/muduo)&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="web" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/web/"/>
+    
+    
+    <category term="web" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>http/1.x format</title>
@@ -392,25 +433,6 @@
     
     
     <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Journal-1</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/05/Journal-1/</id>
-    <published>2024-06-05T11:08:05.000Z</published>
-    <updated>2024-09-10T03:42:57.722Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;嗯~ o(&lt;em&gt;￣▽￣&lt;/em&gt;)o，一时兴起想弄个人博客，来记录一些技术总结以及一些小日记~ 应该是会好好分类的，不用担心找不到. ——2024.6.5&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
     
   </entry>
   
