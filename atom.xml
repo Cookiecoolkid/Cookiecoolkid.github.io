@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-12-25T16:03:08.036Z</updated>
+  <updated>2024-12-27T09:29:30.494Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -17,15 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Design Pattern Strategy</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/27/Design-Pattern-Strategy/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/27/Design-Pattern-Strategy/</id>
+    <published>2024-12-27T09:13:32.000Z</published>
+    <updated>2024-12-27T09:29:30.494Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“以不变应万变，策略随心而动。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;key word: if-else，Strategy，抽象，虚析构函数&lt;/em&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Design Pattern" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Design-Pattern/"/>
+    
+    
+    <category term="Stategy" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Stategy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Design Pattern: Template Method</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/25/Design-Pattern-Template-Method/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/25/Design-Pattern-Template-Method/</id>
     <published>2024-12-25T15:46:55.000Z</published>
-    <updated>2024-12-25T16:03:08.036Z</updated>
+    <updated>2024-12-27T09:28:25.321Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;万变不离其宗，乃是所谓稳中求变。&lt;/p&gt;
+&lt;p&gt;“万变不离其宗，乃是所谓稳中求变。“&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;em&gt;key word: 早(晚)绑定，稳定，变化，虚函数，函数指针，回调函数&lt;/em&gt;&lt;/p&gt;</summary>
     
@@ -414,25 +436,6 @@
     
     
     <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Probability Theory Review</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/</id>
-    <published>2024-06-11T02:01:29.000Z</published>
-    <updated>2024-09-10T03:42:57.722Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自 &amp;gt; NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Probability-Theory/"/>
-    
-    
-    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
     
   </entry>
   
