@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2024-12-27T09:29:30.494Z</updated>
+  <updated>2025-01-07T04:31:15.351Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Buffer-Pool-Manager</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/07/Buffer-Pool-Manager/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/07/Buffer-Pool-Manager/</id>
+    <published>2025-01-07T03:16:44.000Z</published>
+    <updated>2025-01-07T04:31:15.351Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;CMU 15-445/645: Database Systems - Buffer Pool Manager Notes&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Database" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Database/"/>
+    
+    
+    <category term="Database" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Database/"/>
+    
+  </entry>
   
   <entry>
     <title>Design Pattern Strategy</title>
@@ -417,25 +436,6 @@
     
     
     <category term="Numerical Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Numerical-Method/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Journal-2</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/16/Journal-2/</id>
-    <published>2024-06-15T16:19:17.000Z</published>
-    <updated>2024-09-10T03:42:57.722Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;今天是父亲节，祝天下所有的父亲们身体健康，节日快乐！&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Journal/"/>
-    
-    
-    <category term="Journal" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Journal/"/>
     
   </entry>
   
