@@ -361,18 +361,40 @@ mjx-container[display="true"] + br {
 <li>Barfoo</li>
 </ul>
 <span id="more"></span>
-<h2 id="git-连接远程仓库">Git 连接远程仓库</h2>
+<h2 id="Git-连接远程仓库">Git 连接远程仓库</h2>
 <ul>
-<li><p>配置 ssh key </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"</span></span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>查看 ssh key </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li>复制 ssh key 到 github</li>
-<li><p>测试 ssh key 是否配置成功 </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T</span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>配置 git 用户名和邮箱 </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>本地初始化 git 仓库 </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>添加远程仓库(注意不是 https) </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin git@github.com:Cookiecoolkid/NJU-git.git</span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>若创建仓库时添加了 README.md or LISENCE，需要先 pull 解决冲突 </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master --allow-unrelated-histories</span><br></pre></td></tr></tbody></table></figure><p></p></li>
-<li><p>push 本地仓库到远程仓库 </p><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></tbody></table></figure><p></p></li>
+<li>配置 ssh key</li>
 </ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"</span></span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>查看 ssh key</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>复制 ssh key 到 github</li>
+<li>测试 ssh key 是否配置成功</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>配置 git 用户名和邮箱</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>本地初始化 git 仓库</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>添加远程仓库(注意不是 https)</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin git@github.com:Cookiecoolkid/NJU-git.git</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>若创建仓库时添加了 <a target="_blank" rel="noopener" href="http://README.md">README.md</a> or LISENCE，需要先 pull 解决冲突</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master --allow-unrelated-histories</span><br></pre></td></tr></tbody></table></figure>
+<ul>
+<li>push 本地仓库到远程仓库</li>
+</ul>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></tbody></table></figure>
 <!-- flag of hidden posts -->
     </div>
 
@@ -480,7 +502,7 @@ mjx-container[display="true"] + br {
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#git-%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-number">1.</span> <span class="nav-text">Git 连接远程仓库</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git-%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-number">1.</span> <span class="nav-text">Git 连接远程仓库</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
