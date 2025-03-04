@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"github.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="BUG：  由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候尽快释放(Drop)，以免过度占用内存。 调用 Hash() 接口，而不是直接 hash_fn.GetHash()，要符合接口的规范，否则在某个测试中期望得到 uint32_t 类型的 hash 值，而实际得到的是 uint64_t 类型的 hash">
+  <meta name="description" content="For 15445 Project 2.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="extendible-hash-index">
 <meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/29/extendible-hash-index/index.html">
 <meta property="og:site_name" content="Cookiecoolkid">
-<meta property="og:description" content="BUG：  由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候尽快释放(Drop)，以免过度占用内存。 调用 Hash() 接口，而不是直接 hash_fn.GetHash()，要符合接口的规范，否则在某个测试中期望得到 uint32_t 类型的 hash 值，而实际得到的是 uint64_t 类型的 hash">
+<meta property="og:description" content="For 15445 Project 2.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-01-29T04:11:57.000Z">
-<meta property="article:modified_time" content="2025-02-19T10:46:38.901Z">
+<meta property="article:modified_time" content="2025-03-04T10:03:05.671Z">
 <meta property="article:author" content="Cookiecoolkid">
 <meta property="article:tag" content="Database">
 <meta name="twitter:card" content="summary">
@@ -224,7 +224,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-02-19 18:46:38" itemprop="dateModified" datetime="2025-02-19T18:46:38+08:00">2025-02-19</time>
+                <time title="修改时间：2025-03-04 18:03:05" itemprop="dateModified" datetime="2025-03-04T18:03:05+08:00">2025-03-04</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -254,7 +254,8 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <span id="more"></span>
+        <p>For 15445 Project 2.</p>
+<span id="more"></span>
 <h2 id="bug">BUG：</h2>
 <ol style="list-style-type: decimal">
 <li>由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候<strong>尽快</strong>释放(Drop)，以免过度占用内存。</li>
