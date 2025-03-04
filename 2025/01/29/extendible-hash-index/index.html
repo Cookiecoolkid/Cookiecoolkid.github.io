@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"github.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Coolkid With Cookie">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Cookiecoolkid">
-<meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/%E9%A9%BE%E8%80%83/index.html">
+  <meta name="description" content="BUG：  由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候尽快释放(Drop)，以免过度占用内存。 调用 Hash() 接口，而不是直接 hash_fn.GetHash()，要符合接口的规范，否则在某个测试中期望得到 uint32_t 类型的 hash 值，而实际得到的是 uint64_t 类型的 hash">
+<meta property="og:type" content="article">
+<meta property="og:title" content="extendible-hash-index">
+<meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/29/extendible-hash-index/index.html">
 <meta property="og:site_name" content="Cookiecoolkid">
-<meta property="og:description" content="Coolkid With Cookie">
+<meta property="og:description" content="BUG：  由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候尽快释放(Drop)，以免过度占用内存。 调用 Hash() 接口，而不是直接 hash_fn.GetHash()，要符合接口的规范，否则在某个测试中期望得到 uint32_t 类型的 hash 值，而实际得到的是 uint64_t 类型的 hash">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-01-29T04:11:57.000Z">
+<meta property="article:modified_time" content="2025-02-19T10:46:38.901Z">
 <meta property="article:author" content="Cookiecoolkid">
+<meta property="article:tag" content="Database">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/%E9%A9%BE%E8%80%83/">
+<link rel="canonical" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/29/extendible-hash-index/">
 
 
 <script id="page-configurations">
@@ -38,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: 驾考 | Cookiecoolkid</title>
+  <title>extendible-hash-index | Cookiecoolkid</title>
   
 
 
@@ -184,51 +187,150 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">驾考
-          <small>分类</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/29/extendible-hash-index/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Cookiecoolkid">
+      <meta itemprop="description" content="Coolkid With Cookie">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cookiecoolkid">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          extendible-hash-index
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2025-01-29 12:11:57" itemprop="dateCreated datePublished" datetime="2025-01-29T12:11:57+08:00">2025-01-29</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2025-02-19 18:46:38" itemprop="dateModified" datetime="2025-02-19T18:46:38+08:00">2025-02-19</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Database/" itemprop="url" rel="index"><span itemprop="name">Database</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2024</span>
+        <span id="more"></span>
+<h2 id="bug">BUG：</h2>
+<ol style="list-style-type: decimal">
+<li>由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候<strong>尽快</strong>释放(Drop)，以免过度占用内存。</li>
+<li>调用 Hash() 接口，而不是直接 hash_fn.GetHash()，要符合接口的规范，否则在某个测试中期望得到 uint32_t 类型的 hash 值，而实际得到的是 uint64_t 类型的 hash 值，导致测试失败(实际是 Hash 函数使用错误)。</li>
+<li>通过 FetchPage() 获取的页，需要<strong>立刻</strong>检查其 id 是否为 INVALID_PAGE_ID，如果是，则说明分配失败。</li>
+<li>注意 Page 中的 WLatch() 以及 WUnlatch() 的使用，其保护的并不是 Page 的元数据(MetaData)，而是 Page "这一页"实际存储的数据 (data[PAGE_SIZE])。MetaPage 的元数据是由 BufferPoolManager 管理的，所以在使用 MetaPage 时，不需要额外的加锁，需要 BPM 的 latch 保护。</li>
+<li>PageGuard 中调用 UnpinPage() 的时候传入的是 PageGuard 的 is_dirty_，而不是 Page 的 is_dirty_，二者不一样，需要进行区分。</li>
+<li>理解清除需求以及目标之后再实现，这很重要。</li>
+</ol>
+<h2 id="tip">TIP：</h2>
+<ol style="list-style-type: decimal">
+<li>并发控制：主要为 RAII 的实现，对于 FetchPage() 进行封装，返回值为 PageGuard，并且提供 FetchPageRead() 和 FetchPageWrite() 两个接口，分别用于读取和写入。在调用时就会自动加对应的锁，不需要手动加锁，并且在 PageGuard 析构时会自动释放锁。</li>
+<li>reinterpret_cast&lt;&gt;：在 C++ 中，reinterpret_cast<type>(...) 用于进行不同类型之间的转换，但是不会进行类型检查，所以使用时要特别小心，确保转换的类型是正确的。在这里对于只读的 Page 调用的有 const 修饰的 GetData()，此时转换的类型也要是 const 类型的。若是可写的，那么调用的是 GetDataMut()，此时转换的类型就不需要 const 修饰。</type></li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2024-07-22T11:58:42+08:00"
-              content="2024-07-22">
-          07-22
-        </time>
+    
+    
+    
+        <div class="reward-container">
+  <div>Happy everyday~</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="Cookiecoolkid 微信支付">
+        <p>微信支付</p>
       </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2024/07/22/%E7%A7%91%E7%9B%AE%E4%B8%80%E8%AE%B0%E5%88%86%E9%A2%98/" itemprop="url">
-            <span itemprop="name">科目一记分题</span>
+  </div>
+</div>
+
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rss"></i>
+            </span>
+
+            <span class="label">RSS</span>
           </a>
-      </div>
-
-    </header>
-  </article>
-
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Database/" rel="tag"># Database</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2025/01/07/Buffer-Pool-Manager/" rel="prev" title="Buffer-Pool-Manager">
+      <i class="fa fa-chevron-left"></i> Buffer-Pool-Manager
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -281,6 +383,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#bug"><span class="nav-number">1.</span> <span class="nav-text">BUG：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tip"><span class="nav-number">2.</span> <span class="nav-text">TIP：</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -296,20 +399,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-count">22</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-count">16</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
