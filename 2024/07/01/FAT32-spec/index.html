@@ -368,19 +368,28 @@ mjx-container[display="true"] + br {
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Check the FAT32 file system specification. <a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf" class="uri">https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf</a></p>
+        <p>Check the FAT32 file system specification.<br>
+<a target="_blank" rel="noopener" href="https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf">https://jyywiki.cn/OS/manuals/MSFAT-spec.pdf</a></p>
 <span id="more"></span>
-<h1 id="fat32-文件系统结构">FAT32 文件系统结构</h1>
-<p>一个 FAT 文件系统卷由四个基本区域组成，它们按照以下顺序排列在卷上： - 0 - 保留区域 - 1 - FAT 区域 - 2 - 根目录区域（在 FAT32 卷上不存在） - 3 - 文件和目录数据区域</p>
-<div class="figure">
-<img src="FAT-Structure.png" alt="FAT-Structure">
-<p class="caption">FAT-Structure</p>
-</div>
-<h1 id="boot-sector-bpb">Boot Sector &amp; BPB</h1>
+<h1>FAT32 文件系统结构</h1>
+<p>一个 FAT 文件系统卷由四个基本区域组成，它们按照以下顺序排列在卷上：</p>
 <ul>
-<li><p>BPB（BIOS 参数块）位于卷的第一个扇区内的保留区域。这个扇区有时被称为“启动扇区”或“第0扇区”。需要注意的重要事实是，这个扇区就是卷的第一个扇区。 所有FAT卷都必须在启动扇区有一个BPB。</p></li>
-<li><p>BPB 结构字段 </p><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">fat32hdr</span> {</span></span><br><span class="line">    u8  BS_jmpBoot[<span class="number">3</span>];       <span class="comment">// 跳转指令，用于启动代码</span></span><br><span class="line">    u8  BS_OEMName[<span class="number">8</span>];       <span class="comment">// OEM名称</span></span><br><span class="line">    u16 BPB_BytsPerSec;      <span class="comment">// 每扇区字节数</span></span><br><span class="line">    u8  BPB_SecPerClus;      <span class="comment">// 每簇扇区数</span></span><br><span class="line">    u16 BPB_RsvdSecCnt;      <span class="comment">// 保留扇区数</span></span><br><span class="line">    u8  BPB_NumFATs;         <span class="comment">// FAT表数量</span></span><br><span class="line">    u16 BPB_RootEntCnt;      <span class="comment">// 根目录项的总数（FAT32中此值为0）</span></span><br><span class="line">    u16 BPB_TotSec16;        <span class="comment">// 总扇区数（16位），如果为0，则使用BPB_TotSec32</span></span><br><span class="line">    u8  BPB_Media;           <span class="comment">// 媒体类型</span></span><br><span class="line">    u16 BPB_FATSz16;         <span class="comment">// FAT大小（16位），FAT32中此值为0</span></span><br><span class="line">    u16 BPB_SecPerTrk;       <span class="comment">// 每磁道扇区数</span></span><br><span class="line">    u16 BPB_NumHeads;        <span class="comment">// 磁头数</span></span><br><span class="line">    u32 BPB_HiddSec;         <span class="comment">// 隐藏扇区数</span></span><br><span class="line">    u32 BPB_TotSec32;        <span class="comment">// 总扇区数（32位）</span></span><br><span class="line">    u32 BPB_FATSz32;         <span class="comment">// 每个FAT的扇区数（FAT32）</span></span><br><span class="line">    u16 BPB_ExtFlags;        <span class="comment">// 扩展标志</span></span><br><span class="line">    u16 BPB_FSVer;           <span class="comment">// 文件系统版本</span></span><br><span class="line">    u32 BPB_RootClus;        <span class="comment">// 根目录簇号</span></span><br><span class="line">    u16 BPB_FSInfo;          <span class="comment">// FSInfo扇区号</span></span><br><span class="line">    u16 BPB_BkBootSec;       <span class="comment">// 备份引导扇区位置</span></span><br><span class="line">    u8  BPB_Reserved[<span class="number">12</span>];    <span class="comment">// 保留供将来使用</span></span><br><span class="line">    u8  BS_DrvNum;           <span class="comment">// 驱动器编号</span></span><br><span class="line">    u8  BS_Reserved1;        <span class="comment">// 保留</span></span><br><span class="line">    u8  BS_BootSig;          <span class="comment">// 扩展引导标志</span></span><br><span class="line">    u32 BS_VolID;            <span class="comment">// 卷序列号</span></span><br><span class="line">    u8  BS_VolLab[<span class="number">11</span>];       <span class="comment">// 卷标</span></span><br><span class="line">    u8  BS_FilSysType[<span class="number">8</span>];    <span class="comment">// 文件系统类型</span></span><br><span class="line">    u8  __padding_1[<span class="number">420</span>];    <span class="comment">// 填充至510字节</span></span><br><span class="line">    u16 Signature_word;      <span class="comment">// 扇区签名（0x55AA）</span></span><br><span class="line">} __attribute__((packed));  <span class="comment">// 确保编译器不会改变对齐</span></span><br></pre></td></tr></tbody></table></figure><p></p></li>
+<li>0 - 保留区域</li>
+<li>1 - FAT 区域</li>
+<li>2 - 根目录区域（在 FAT32 卷上不存在）</li>
+<li>3 - 文件和目录数据区域</li>
 </ul>
+<p><img src="FAT-Structure.png" alt="FAT-Structure"></p>
+<h1>Boot Sector &amp; BPB</h1>
+<ul>
+<li>
+<p>BPB（BIOS 参数块）位于卷的第一个扇区内的保留区域。这个扇区有时被称为“启动扇区”或“第0扇区”。需要注意的重要事实是，这个扇区就是卷的第一个扇区。 所有FAT卷都必须在启动扇区有一个BPB。</p>
+</li>
+<li>
+<p>BPB 结构字段</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">fat32hdr</span> {</span></span><br><span class="line">    u8  BS_jmpBoot[<span class="number">3</span>];       <span class="comment">// 跳转指令，用于启动代码</span></span><br><span class="line">    u8  BS_OEMName[<span class="number">8</span>];       <span class="comment">// OEM名称</span></span><br><span class="line">    u16 BPB_BytsPerSec;      <span class="comment">// 每扇区字节数</span></span><br><span class="line">    u8  BPB_SecPerClus;      <span class="comment">// 每簇扇区数</span></span><br><span class="line">    u16 BPB_RsvdSecCnt;      <span class="comment">// 保留扇区数</span></span><br><span class="line">    u8  BPB_NumFATs;         <span class="comment">// FAT表数量</span></span><br><span class="line">    u16 BPB_RootEntCnt;      <span class="comment">// 根目录项的总数（FAT32中此值为0）</span></span><br><span class="line">    u16 BPB_TotSec16;        <span class="comment">// 总扇区数（16位），如果为0，则使用BPB_TotSec32</span></span><br><span class="line">    u8  BPB_Media;           <span class="comment">// 媒体类型</span></span><br><span class="line">    u16 BPB_FATSz16;         <span class="comment">// FAT大小（16位），FAT32中此值为0</span></span><br><span class="line">    u16 BPB_SecPerTrk;       <span class="comment">// 每磁道扇区数</span></span><br><span class="line">    u16 BPB_NumHeads;        <span class="comment">// 磁头数</span></span><br><span class="line">    u32 BPB_HiddSec;         <span class="comment">// 隐藏扇区数</span></span><br><span class="line">    u32 BPB_TotSec32;        <span class="comment">// 总扇区数（32位）</span></span><br><span class="line">    u32 BPB_FATSz32;         <span class="comment">// 每个FAT的扇区数（FAT32）</span></span><br><span class="line">    u16 BPB_ExtFlags;        <span class="comment">// 扩展标志</span></span><br><span class="line">    u16 BPB_FSVer;           <span class="comment">// 文件系统版本</span></span><br><span class="line">    u32 BPB_RootClus;        <span class="comment">// 根目录簇号</span></span><br><span class="line">    u16 BPB_FSInfo;          <span class="comment">// FSInfo扇区号</span></span><br><span class="line">    u16 BPB_BkBootSec;       <span class="comment">// 备份引导扇区位置</span></span><br><span class="line">    u8  BPB_Reserved[<span class="number">12</span>];    <span class="comment">// 保留供将来使用</span></span><br><span class="line">    u8  BS_DrvNum;           <span class="comment">// 驱动器编号</span></span><br><span class="line">    u8  BS_Reserved1;        <span class="comment">// 保留</span></span><br><span class="line">    u8  BS_BootSig;          <span class="comment">// 扩展引导标志</span></span><br><span class="line">    u32 BS_VolID;            <span class="comment">// 卷序列号</span></span><br><span class="line">    u8  BS_VolLab[<span class="number">11</span>];       <span class="comment">// 卷标</span></span><br><span class="line">    u8  BS_FilSysType[<span class="number">8</span>];    <span class="comment">// 文件系统类型</span></span><br><span class="line">    u8  __padding_1[<span class="number">420</span>];    <span class="comment">// 填充至510字节</span></span><br><span class="line">    u16 Signature_word;      <span class="comment">// 扇区签名（0x55AA）</span></span><br><span class="line">} __attribute__((packed));  <span class="comment">// 确保编译器不会改变对齐</span></span><br></pre></td></tr></tbody></table></figure>
 
     </div>
 
@@ -498,7 +507,7 @@ mjx-container[display="true"] + br {
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#fat32-%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84"><span class="nav-number">1.</span> <span class="nav-text">FAT32 文件系统结构</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#boot-sector-bpb"><span class="nav-number">2.</span> <span class="nav-text">Boot Sector &amp; BPB</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">FAT32 文件系统结构</span></a></li><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">Boot Sector &amp; BPB</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -514,7 +523,7 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -527,7 +536,7 @@ mjx-container[display="true"] + br {
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-count">17</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>

@@ -256,8 +256,8 @@
       
         <p>For 15445 Project 2.</p>
 <span id="more"></span>
-<h2 id="bug">BUG：</h2>
-<ol style="list-style-type: decimal">
+<h2 id="BUG：">BUG：</h2>
+<ol>
 <li>由于已经实现了 BufferPoolManager，所以在实现 ExtendibleHash 的时候，Fetch 而来的页在不需要的时候<strong>尽快</strong>释放(Drop)，以免过度占用内存。</li>
 <li>调用 Hash() 接口，而不是直接 hash_fn.GetHash()，要符合接口的规范，否则在某个测试中期望得到 uint32_t 类型的 hash 值，而实际得到的是 uint64_t 类型的 hash 值，导致测试失败(实际是 Hash 函数使用错误)。</li>
 <li>通过 FetchPage() 获取的页，需要<strong>立刻</strong>检查其 id 是否为 INVALID_PAGE_ID，如果是，则说明分配失败。</li>
@@ -265,10 +265,10 @@
 <li>PageGuard 中调用 UnpinPage() 的时候传入的是 PageGuard 的 is_dirty_，而不是 Page 的 is_dirty_，二者不一样，需要进行区分。</li>
 <li>理解清除需求以及目标之后再实现，这很重要。</li>
 </ol>
-<h2 id="tip">TIP：</h2>
-<ol style="list-style-type: decimal">
+<h2 id="TIP：">TIP：</h2>
+<ol>
 <li>并发控制：主要为 RAII 的实现，对于 FetchPage() 进行封装，返回值为 PageGuard，并且提供 FetchPageRead() 和 FetchPageWrite() 两个接口，分别用于读取和写入。在调用时就会自动加对应的锁，不需要手动加锁，并且在 PageGuard 析构时会自动释放锁。</li>
-<li>reinterpret_cast&lt;&gt;：在 C++ 中，reinterpret_cast<type>(...) 用于进行不同类型之间的转换，但是不会进行类型检查，所以使用时要特别小心，确保转换的类型是正确的。在这里对于只读的 Page 调用的有 const 修饰的 GetData()，此时转换的类型也要是 const 类型的。若是可写的，那么调用的是 GetDataMut()，此时转换的类型就不需要 const 修饰。</type></li>
+<li>reinterpret_cast&lt;&gt;：在 C++ 中，reinterpret_cast<type>(…) 用于进行不同类型之间的转换，但是不会进行类型检查，所以使用时要特别小心，确保转换的类型是正确的。在这里对于只读的 Page 调用的有 const 修饰的 GetData()，此时转换的类型也要是 const 类型的。若是可写的，那么调用的是 GetDataMut()，此时转换的类型就不需要 const 修饰。</type></li>
 </ol>
 
     </div>
@@ -325,7 +325,10 @@
     <a href="/2025/01/07/Buffer-Pool-Manager/" rel="prev" title="Buffer-Pool-Manager">
       <i class="fa fa-chevron-left"></i> Buffer-Pool-Manager
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2025/03/07/Bustub-CMU-15-445%F0%9F%98%87/" rel="next" title="Bustub--CMU-15-445😇">
+      Bustub--CMU-15-445😇 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -384,7 +387,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#bug"><span class="nav-number">1.</span> <span class="nav-text">BUG：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tip"><span class="nav-number">2.</span> <span class="nav-text">TIP：</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#BUG%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">BUG：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TIP%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">TIP：</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -400,7 +403,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -413,7 +416,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-count">17</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
