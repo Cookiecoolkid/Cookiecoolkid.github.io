@@ -6,7 +6,7 @@
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/"/>
-  <updated>2025-03-07T01:29:36.989Z</updated>
+  <updated>2025-03-13T02:48:03.039Z</updated>
   <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/07/Bustub-CMU-15-445%F0%9F%98%87/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/07/Bustub-CMU-15-445%F0%9F%98%87/</id>
     <published>2025-03-07T01:18:48.000Z</published>
-    <updated>2025-03-07T01:29:36.989Z</updated>
+    <updated>2025-03-13T02:48:03.039Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;Thank you! Andy Pavlo &amp;amp; Jignesh Patel for the great course!&lt;/strong&gt;&lt;/p&gt;</summary>
@@ -59,7 +59,7 @@
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/07/Buffer-Pool-Manager/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/07/Buffer-Pool-Manager/</id>
     <published>2025-01-07T03:16:44.000Z</published>
-    <updated>2025-01-08T06:27:26.143Z</updated>
+    <updated>2025-03-12T12:52:59.706Z</updated>
     
     
     <summary type="html">&lt;p&gt;CMU 15-445/645: Database Systems - Buffer Pool Manager Notes&lt;/p&gt;</summary>
@@ -205,25 +205,6 @@
   </entry>
   
   <entry>
-    <title>CryptoTheory1</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/05/CryptoTheory1/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/05/CryptoTheory1/</id>
-    <published>2024-09-05T00:59:34.000Z</published>
-    <updated>2024-09-10T03:42:57.708Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;🔒🔐🔓🔑&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Crypto Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Crypto-Theory/"/>
-    
-    
-    <category term="Crypto" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Crypto/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Dynamic Programming I</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/</id>
@@ -260,25 +241,6 @@
     <category term="Algorithm" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Algorithm/"/>
     
     <category term="AcWing" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/AcWing/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Container-Docker</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/03/Container-Docker/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/03/Container-Docker/</id>
-    <published>2024-07-03T02:04:30.000Z</published>
-    <updated>2024-09-10T03:42:57.708Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;云原生 - Docker&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Docker" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Docker/"/>
-    
-    
-    <category term="Docker" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Docker/"/>
     
   </entry>
   
@@ -388,6 +350,25 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
   </entry>
   
   <entry>
+    <title>emoji &amp; mathjax</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/</id>
+    <published>2024-06-26T10:33:01.000Z</published>
+    <updated>2025-03-27T04:43:15.297Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近希望在 hexo 上加上支持渲染 emoji 的功能，但是此时发现 mathjax 无法正常渲染了.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>os-code-concurrency</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/</id>
@@ -450,6 +431,28 @@ please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot;&gt;https://jyywi
     
     
     <category term="Numerical Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Numerical-Method/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Probability Theory Review</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/11/Probability-Theory-Review/</id>
+    <published>2024-06-11T02:01:29.000Z</published>
+    <updated>2024-09-10T03:42:57.722Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;这是一篇概率论期末复习的小笔记. 课程资料取自&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NJU-Probability-Theory-2024-Spring By 尹一通/刘景铖&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Probability-Theory/"/>
+    
+    
+    <category term="Probability Theory" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Probability-Theory/"/>
     
   </entry>
   
