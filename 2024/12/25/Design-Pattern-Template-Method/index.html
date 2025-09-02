@@ -295,18 +295,14 @@
 <p>定义一个操作中的算法的骨架（稳定），而将一些步骤延迟（变化）到子类中。Template Method 使得子类可以不改变（复用）一个算法的结构即可重定义（override 重写）该算法的某些特定步骤。</p>
 <h2 id="特点">特点</h2>
 <ul>
-<li>使用晚绑定而不是早绑定
-<table>
-<tbody><tr>
-<td>
-<img src="laterbind.png" srcset="/img/loading.gif" lazyload width="450" height="600" alt="晚绑定">
-</td>
-<td>
-<img src="earlybind.png" srcset="/img/loading.gif" lazyload width="450" height="600" alt="早绑定">
-</td>
-</tr>
-</tbody></table></li>
+<li>使用晚绑定而不是早绑定</li>
 </ul>
+<table>
+  <tbody><tr>
+    <td><img src="laterbind.png" srcset="/img/loading.gif" lazyload width="450" height="600" alt="晚绑定"></td>
+    <td><img src="earlybind.png" srcset="/img/loading.gif" lazyload width="450" height="600" alt="早绑定"></td>
+  </tr>
+</tbody></table>
 <h2 id="思想">思想</h2>
 <p>这一点在 C 的函数指针和回调函数中有体现。在 C++ 中，主要通过虚函数(底层同样为函数指针)的方式实现，让父类去定义“骨架”的规范（所谓稳定的部分），而将变化的部分留给子类去实现，例如子类中重写父类的虚函数，应用端写的回调函数让类库去调用等等。</p>
 <h2 id="致谢">致谢</h2>

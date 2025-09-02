@@ -290,22 +290,13 @@
                 
                 <p><strong>Thank you! Andy Pavlo &amp; Jignesh Patel for the great course!</strong></p>
 <span id="more"></span>
-<div class="figure">
-<img src="sql.png" srcset="/img/loading.gif" lazyload>
-
-</div>
+<p><img src="sql.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p>也许每每看到这个<code>SQL</code>查询结构的时候，也都会感慨万分罢！一开始总觉得很困难，但还是走过来了。</p>
-<div class="figure">
-<img src="grades.png" srcset="/img/loading.gif" lazyload>
-
-</div>
+<p><img src="grades.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p>不过，这的确没有“真正”终结。目前还差最后的一小部分，但正如 Project 中所说：</p>
-<div class="figure">
-<img src="project-hint.png" srcset="/img/loading.gif" lazyload>
-
-</div>
+<p><img src="project-hint.png" srcset="/img/loading.gif" lazyload alt=""></p>
 <p>目前到达这里也算是一个小小的里程碑了，在回头拿到这完整的 <code>100pts</code> 以及 <code>Bonus</code> 之前，也许需要转向去看看生活中更重要的事情了。加油</p>
-<h3 id="bugs">Bugs:</h3>
+<h3 id="Bugs">Bugs:</h3>
 <ul>
 <li>在实现脏页回写的时候，测试时发现数据并没有成功写入，而用 gdb 调试的时候总是成功写入。因为读取磁盘的操作是异步的，所以需要等待读取完成后再返回 在 gdb 模式中由于运行慢，所以可以看到数据。没有正确理解 std::future, std::promise 的异步、callback 机制。</li>
 <li>页的并发 bug 以及忘记取页用完后 Drop() 导致页一直停留在 BufferPool 中：封装 Guard 类，使用 RAII 自动释放锁以及 Drop()。</li>
@@ -382,6 +373,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2025/03/29/Algorithms/" title="Algorithms">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Algorithms</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">

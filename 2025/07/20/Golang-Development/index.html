@@ -19,22 +19,23 @@
   <meta name="author" content="Cookiecoolkid">
   <meta name="keywords" content="">
   
-    <meta name="description" content="对于本学期计网课程的简要复习大纲">
+    <meta name="description" content="Gin framework 如今多采用 GO Module 管理依赖，使用 go mod init 初始化项目, 以及 go get github.com&#x2F;gin-gonic&#x2F;gin 安装 Gin 框架。 Basic APIs 创建路由 + Callback 函数. 1234567891011121314151617181920212223242526272829303132type UserIn">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Computer Network Review">
-<meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/21/Computer-Network-Review/index.html">
+<meta property="og:title" content="Golang Development">
+<meta property="og:url" content="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/07/20/Golang-Development/index.html">
 <meta property="og:site_name" content="Cookiecoolkid">
-<meta property="og:description" content="对于本学期计网课程的简要复习大纲">
+<meta property="og:description" content="Gin framework 如今多采用 GO Module 管理依赖，使用 go mod init 初始化项目, 以及 go get github.com&#x2F;gin-gonic&#x2F;gin 安装 Gin 框架。 Basic APIs 创建路由 + Callback 函数. 1234567891011121314151617181920212223242526272829303132type UserIn">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-06-21T02:31:46.000Z">
-<meta property="article:modified_time" content="2025-03-27T04:41:06.191Z">
+<meta property="article:published_time" content="2025-07-20T14:21:44.000Z">
+<meta property="article:modified_time" content="2025-07-20T16:17:03.192Z">
 <meta property="article:author" content="Cookiecoolkid">
-<meta property="article:tag" content="Computer Network">
+<meta property="article:tag" content="go">
+<meta property="article:tag" content="development">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Computer Network Review - Cookiecoolkid</title>
+  <title>Golang Development - Cookiecoolkid</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -92,119 +93,7 @@
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Cookiecoolkid" type="application/atom+xml">
-<style>mjx-container[jax="SVG"] {
-  direction: ltr;
-}
-
-mjx-container[jax="SVG"] > svg {
-  overflow: visible;
-}
-
-mjx-container[jax="SVG"][display="true"] {
-  display: block;
-  text-align: center;
-  margin: 1em 0;
-}
-
-mjx-container[jax="SVG"][justify="left"] {
-  text-align: left;
-}
-
-mjx-container[jax="SVG"][justify="right"] {
-  text-align: right;
-}
-
-g[data-mml-node="merror"] > g {
-  fill: red;
-  stroke: red;
-}
-
-g[data-mml-node="merror"] > rect[data-background] {
-  fill: yellow;
-  stroke: none;
-}
-
-g[data-mml-node="mtable"] > line[data-line] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > rect[data-frame] {
-  stroke-width: 70px;
-  fill: none;
-}
-
-g[data-mml-node="mtable"] > .mjx-dashed {
-  stroke-dasharray: 140;
-}
-
-g[data-mml-node="mtable"] > .mjx-dotted {
-  stroke-linecap: round;
-  stroke-dasharray: 0,140;
-}
-
-g[data-mml-node="mtable"] > svg {
-  overflow: visible;
-}
-
-[jax="SVG"] mjx-tool {
-  display: inline-block;
-  position: relative;
-  width: 0;
-  height: 0;
-}
-
-[jax="SVG"] mjx-tool > mjx-tip {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-mjx-tool > mjx-tip {
-  display: inline-block;
-  padding: .2em;
-  border: 1px solid #888;
-  font-size: 70%;
-  background-color: #F8F8F8;
-  color: black;
-  box-shadow: 2px 2px 5px #AAAAAA;
-}
-
-g[data-mml-node="maction"][data-toggle] {
-  cursor: pointer;
-}
-
-mjx-status {
-  display: block;
-  position: fixed;
-  left: 1em;
-  bottom: 1em;
-  min-width: 25%;
-  padding: .2em .4em;
-  border: 1px solid #888;
-  font-size: 90%;
-  background-color: #F8F8F8;
-  color: black;
-}
-
-foreignObject[data-mjx-xml] {
-  font-family: initial;
-  line-height: normal;
-  overflow: visible;
-}
-
-.MathJax path {
-  stroke-width: 3;
-}
-
-mjx-container[display="true"] {
-  overflow: auto hidden;
-}
-
-mjx-container[display="true"] + br {
-  display: none;
-}
-</style></head>
+</head>
 
 
 <body>
@@ -319,7 +208,7 @@ mjx-container[display="true"] + br {
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Computer Network Review"></span>
+            <span id="subtitle" data-typed-text="Golang Development"></span>
           
         </div>
 
@@ -330,8 +219,8 @@ mjx-container[display="true"] + br {
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-06-21 10:31" pubdate>
-          2024年6月21日 上午
+        <time datetime="2025-07-20 22:21" pubdate>
+          2025年7月20日 晚上
         </time>
       </span>
     
@@ -342,7 +231,7 @@ mjx-container[display="true"] + br {
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          130 字
         
       </span>
     
@@ -353,7 +242,7 @@ mjx-container[display="true"] + br {
         
         
         
-          10 分钟
+          2 分钟
         
       </span>
     
@@ -390,48 +279,16 @@ mjx-container[display="true"] + br {
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Computer Network Review</h1>
+            <h1 id="seo-header">Golang Development</h1>
             
             
               <div class="markdown-body">
                 
-                <p>对于本学期计网课程的简要复习大纲</p>
-<span id="more"></span>
-<h2 id="chapter-1-计算机网络概述">Chapter 1: 计算机网络概述</h2>
-<ul>
-<li>协议(protocol): 定义了在两个或多个通信实体之间交换的报文的格式和顺序，以及报文发送和/或接收一条报文或其他事件所采取的动作。</li>
-<li>端系统(end system): 即主机，一般指计算机，如PC、工作站、服务器等。</li>
-<li>物理层物理媒介: 通信的基础，如双绞铜线、光纤、同轴电缆、陆地/卫星的无线电信道等。</li>
-<li>报文(message): 用于网络通信的数据单元，而分组是对报文的进一步划分。</li>
-<li>交换器(switch): 用于在网络中传输数据的设备，如路由器、分组交换机等。</li>
-<li>路由器(router): 用于在网络层转发数据的设备。</li>
-<li>分组交换机(packet switch): 用于在数据链路层转发数据的设备。</li>
-<li>分组交换机传输方式：一般为存储转发(store and forward): 接收到整个分组后，才开始转发。因为接收到分组之后要对首部进行解析，因此需要先存储整个分组，然后再转发。</li>
-<li>路由器的转发表：会根据 IP 地址使用 ARP 协议获取 MAC 地址，然后根据 MAC 地址转发数据。</li>
-<li>电路交换(circuit switching): 通信双方在通信之前建立一条专用的物理通路，通信结束后再释放这条通路。如电话通信。能够确保以恒定速率传输数据，但传输效率低。</li>
-<li>分组交换(packet switching): 通信双方在通信之前不需要建立专用的物理通路，而是通过交换机在网络中动态选择传输路径。如互联网。能够提高传输效率，但无法保证传输速率(不适合电话和视频会议等实时传输)。</li>
-<li>电路交换网络中的复用：时分复用(TDM)、频分复用(FDM)、波分复用(WDM)。</li>
-<li>网络提供商(ISP): 通过向用户提供接入互联网的服务，而用户通过接入互联网来访问其他用户的计算机。其中有对等、多宿等不同的连接方式。</li>
-<li>分组交换网中的时延、丢包和吞吐量：</li>
-<li>时延(delay): 传输时延、处理时延、排队时延、传播时延。</li>
-<li>丢包(packet loss): 当流量强度接近 1 时，会出现丢包现象。</li>
-<li>吞吐量(throughput): 在多个路由器之间传输数据时，吞吐量取决于最低的链路速率。</li>
-<li>ISO/OSI 七层模型：物理层、数据链路层、网络层、传输层、会话层、表示层、应用层。</li>
-<li>TCP/IP 四层模型：网络接口层(物理层，数据链路层)、网络层、传输层、应用层。</li>
-</ul>
-<h2 id="chapter-2-应用层">Chapter 2: 应用层</h2>
-<p>本章在考试中不作要求，暂简要记录. - CS 架构: 客户端-服务器(client-server)、P2P 架构(peer-to-peer)。 - HTTP: 超文本传输协议，基于 TCP 协议，无状态。 - DNS: 域名系统，用于将域名转换为 IP 地址，分别由递归查询和迭代查询实现。 - SMTP: 简单邮件传输协议，用于发送邮件。 - FTP: 文件传输协议，用于文件传输。 - 套接字(socket): 进程与计算机网络之间的接口，用于进程间的通信。 - 因特网运输服务分类： - 是否面向连接 - 是否可靠 - 是否提供流量控制</p>
-<h2 id="chapter-3-运输层传输层">Chapter 3: 运输层(传输层)</h2>
-<ul>
-<li>报文段(segment): 传输层的数据单元。注意：不同的分组在不同层次有不同的称呼，在网络层称为分组(packet)，在链路层称为帧(frame)，物理层是比特(bit)层次的传输。</li>
-<li>传输层提供了进程之间的逻辑通信。</li>
-<li>多路复用：在源主机，传输层协议从不同的套接字（socket）收集应用进程发送的数据块，并为每个数据块封装上首部信息（包括用于分解的信息）构成报文段，然后将报文段传递给网络层。</li>
-<li>多路分解：在目的主机，传输层协议读取报文段中的字段，标识出接收套接字，进而通过该套接字，将传输层的报文段中的数据交付给正确的套接字。</li>
-<li>传输层报文段中的端口字段：共 16 位，用于标识主机中的进程，其中 0-1023 为知名端口，1024-49151 为注册端口，49152-65535 为动态/私有端口。</li>
-<li>TCP 套接字：为四元组，即源 IP 地址、源端口号、目的 IP 地址、目的端口号。</li>
-<li>...</li>
-</ul>
-
+                <h1>Gin framework</h1>
+<p>如今多采用 GO Module 管理依赖，使用 <code>go mod init</code> 初始化项目, 以及 <code>go get github.com/gin-gonic/gin</code> 安装 Gin 框架。</p>
+<h2 id="Basic-APIs">Basic APIs</h2>
+<p>创建路由 + Callback 函数.</p>
+<figure class="highlight go"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><code class="hljs go"><span class="hljs-keyword">type</span> UserInfo <span class="hljs-keyword">struct</span> {<br>    Name <span class="hljs-type">string</span> <span class="hljs-string">`json:"name"`</span><br>    Age  <span class="hljs-type">int</span>    <span class="hljs-string">`json:"age"`</span><br>}<br><br><br>r := gin.Default()<br><br>r.LoadHTMLGlob(<span class="hljs-string">"templates/*"</span>) <span class="hljs-comment">// 加载 HTML 模板</span><br><br>r.Static(<span class="hljs-string">"/static"</span>, <span class="hljs-string">"./static"</span>) <span class="hljs-comment">// 设置静态文件目录</span><br><br>r.Use(gin.Logger()) <span class="hljs-comment">// 使用 Logger 中间件</span><br><br>r.GET(<span class="hljs-string">"/ping"</span>, <span class="hljs-function"><span class="hljs-keyword">func</span><span class="hljs-params">(c *gin.Context)</span></span> {<br>    name := c.Query(<span class="hljs-string">"name"</span>) <span class="hljs-comment">// 获取查询参数</span><br>    userInfo := UserInfo{}<br>    c.ShouldBindJSON(&amp;userInfo) <span class="hljs-comment">// 绑定 JSON 数据到结构体</span><br>    <br><br>    c.JSON(<span class="hljs-number">200</span>, gin.H{<br>        <span class="hljs-string">"message"</span>: <span class="hljs-string">"hello "</span> + name,<br>    })<br>})<br><br><br>r.GET(<span class="hljs-string">"/gethtml"</span>, <span class="hljs-function"><span class="hljs-keyword">func</span><span class="hljs-params">(c *gin.Context)</span></span> {<br>    c.HTML(<span class="hljs-number">200</span>, <span class="hljs-string">"index.html"</span>, gin.H{<br>        <span class="hljs-string">"title"</span>: <span class="hljs-string">"Hello HTML"</span>,<br>    })<br>})<br><br></code></pre></td></tr></tbody></table></figure>
                 
               </div>
             
@@ -446,6 +303,16 @@ mjx-container[display="true"] + br {
 <span class="category-chains">
   
   
+    
+      <span class="category-chain">
+        
+  <a href="/categories/development/" class="category-chain-item">development</a>
+  
+  
+
+      </span>
+    
+  
 </span>
 
     </div>
@@ -454,7 +321,9 @@ mjx-container[display="true"] + br {
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Computer-Network/" class="print-no-link">#Computer Network</a>
+        <a href="/tags/go/" class="print-no-link">#go</a>
+      
+        <a href="/tags/development/" class="print-no-link">#development</a>
       
     </div>
   
@@ -466,8 +335,8 @@ mjx-container[display="true"] + br {
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Computer Network Review</div>
-      <div>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/21/Computer-Network-Review/</div>
+      <div>Golang Development</div>
+      <div>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/07/20/Golang-Development/</div>
     </div>
     <div class="license-meta">
       
@@ -479,7 +348,7 @@ mjx-container[display="true"] + br {
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年6月21日</div>
+          <div>2025年7月20日</div>
         </div>
       
       
@@ -506,6 +375,29 @@ mjx-container[display="true"] + br {
 
 
 
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2025/09/02/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97%E5%85%A5%E9%97%A8/" title="SIMD-高性能计算入门">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">SIMD-高性能计算入门</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2025/03/29/Algorithms/" title="Algorithms">
+                        <span class="hidden-mobile">Algorithms</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
               
             </div>
 
