@@ -62,33 +62,6 @@
   </entry>
   
   <entry>
-    <title>Golang Development</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/07/20/Golang-Development/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/07/20/Golang-Development/</id>
-    <published>2025-07-20T14:21:44.000Z</published>
-    <updated>2026-01-01T12:35:10.747Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="development" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/development/"/>
-    
-    
-    <category term="go" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/go/"/>
-    
-    <category term="development" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/development/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Algorithms</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/29/Algorithms/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/29/Algorithms/</id>
@@ -441,6 +414,26 @@
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/concurrency&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/Operation-System/"/>
+    
+    
+    <category term="Operation System" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Operation-System/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-code-introduction</title>
+    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/"/>
+    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-introduction/</id>
+    <published>2024-06-26T02:36:24.000Z</published>
+    <updated>2024-09-10T03:42:57.737Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;All code is taken from NJU-2024-operation-system by jyy.&lt;/strong&gt; please check &lt;a href=&quot;https://jyywiki.cn/OS/2024/&quot; class=&quot;uri&quot;&gt;https://jyywiki.cn/OS/2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;forked-code： &lt;a href=&quot;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&quot; class=&quot;uri&quot;&gt;https://github.com/Cookiecoolkid/jyyos/tree/master/introduction&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     
