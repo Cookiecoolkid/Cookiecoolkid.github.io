@@ -11,9 +11,9 @@
     (function () {
       try {
         var theme = localStorage.getItem('lizheng-site-theme');
-        document.documentElement.dataset.theme = theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme || 'light';
       } catch (error) {
-        document.documentElement.dataset.theme = 'dark';
+        document.documentElement.dataset.theme = 'light';
       }
     }());
   </script>

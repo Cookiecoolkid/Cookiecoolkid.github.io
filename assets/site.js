@@ -8,7 +8,7 @@
       var saved = window.localStorage.getItem(storageKey);
       if (saved === 'light' || saved === 'dark') return saved;
     } catch (error) { /* Storage may be unavailable in privacy modes. */ }
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    return 'light';
   }
 
   function setTheme(theme) {
