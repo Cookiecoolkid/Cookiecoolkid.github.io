@@ -1,5 +1,16 @@
 /* global Fluid, CONFIG */
 
+/* Load the shared personal-site palette before legacy Hexo content is painted. */
+(function () {
+  var theme = 'dark';
+  try {
+    theme = window.localStorage.getItem('lizheng-site-theme')
+      || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  } catch (error) { /* Keep the dark default when storage is unavailable. */ }
+  document.documentElement.dataset.theme = theme;
+  document.write('<link rel="stylesheet" href="/assets/site.css">');
+}());
+
 window.requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame;
 
 Fluid.utils = {
