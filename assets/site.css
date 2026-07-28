@@ -187,6 +187,10 @@ body:not(.site-page) #modalSearch { display: none !important; }
 .legacy-page:not(.legacy-post) .about-avatar { margin: 0 auto 22px; }
 .legacy-page:not(.legacy-post) .about-avatar img { border-radius: 9px; }
 .legacy-page:not(.legacy-post) .about-name, .legacy-page:not(.legacy-post) .about-intro { color: var(--text); }
+.legacy-page .index-card:has(a[href="/2024/06/19/Some-Words-To-U/"]),
+.legacy-page .index-card:has(a[href="/2024/10/30/muduo/"]),
+.legacy-page a[href="/2024/06/19/Some-Words-To-U/"],
+.legacy-page a[href="/2024/10/30/muduo/"] { display: none !important; }
 
 @media (max-width: 720px) {
   .site-nav, .site-main, .site-footer { box-sizing: border-box; width: calc(100% - 32px); padding-left: 0; padding-right: 0; }

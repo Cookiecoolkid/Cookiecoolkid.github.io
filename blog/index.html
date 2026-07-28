@@ -11,9 +11,9 @@
     (function () {
       try {
         var theme = localStorage.getItem('lizheng-site-theme');
-        document.documentElement.dataset.theme = theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme || 'light';
       } catch (error) {
-        document.documentElement.dataset.theme = 'dark';
+        document.documentElement.dataset.theme = 'light';
       }
     }());
   </script>
@@ -39,7 +39,7 @@
     </header>
 
     <div class="blog-toolbar">
-      <span class="blog-count" data-post-count>共 28 篇文章</span>
+      <span class="blog-count" data-post-count>共 26 篇文章</span>
       <label>
         <span class="sr-only">搜索文章</span>
         <input class="blog-search" type="search" data-blog-search placeholder="搜索标题或主题" autocomplete="off">
@@ -50,31 +50,29 @@
       <li class="post-item" data-post-item><time class="post-date" datetime="2026-03-19">2026.03.19</time><div><a class="post-title" href="/2026/03/19/杂乱写写/">杂乱写写</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
       <li class="post-item" data-post-item><time class="post-date" datetime="2025-12-14">2025.12.14</time><div><a class="post-title" href="/2025/12/14/一些学习经验和反思/">一些学习经验和反思</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
       <li class="post-item" data-post-item><time class="post-date" datetime="2025-09-02">2025.09.02</time><div><a class="post-title" href="/2025/09/02/高性能计算入门/">SIMD-高性能计算入门</a><div class="post-labels"><span class="post-label">HPC</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2025-07-20">2025.07.20</time><div><a class="post-title" href="/2025/07/20/Golang-Development/">Golang Development</a><div class="post-labels"><span class="post-label">web</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2025-03-29">2025.03.29</time><div><a class="post-title" href="/2025/03/29/Algorithms/">Algorithms</a><div class="post-labels"><span class="post-label">Algorithm</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2025-03-07">2025.03.07</time><div><a class="post-title" href="/2025/03/07/Bustub-CMU-15-445😇/">Bustub--CMU-15-445😇</a><div class="post-labels"><span class="post-label">Database</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2025-01-29">2025.01.29</time><div><a class="post-title" href="/2025/01/29/extendible-hash-index/">extendible-hash-index</a><div class="post-labels"><span class="post-label">Database</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2025-01-07">2025.01.07</time><div><a class="post-title" href="/2025/01/07/Buffer-Pool-Manager/">Buffer-Pool-Manager</a><div class="post-labels"><span class="post-label">Database</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-12-27">2024.12.27</time><div><a class="post-title" href="/2024/12/27/Design-Pattern-Strategy/">Design Pattern Strategy</a><div class="post-labels"><span class="post-label">Design Pattern</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-12-25">2024.12.25</time><div><a class="post-title" href="/2024/12/25/Design-Pattern-Template-Method/">Design Pattern: Template Method</a><div class="post-labels"><span class="post-label">Design Pattern</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-10-30">2024.10.30</time><div><a class="post-title" href="/2024/10/30/muduo/">muduo</a><div class="post-labels"><span class="post-label">web</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2025-07-20">2025.07.20</time><div><a class="post-title" href="/2025/07/20/Golang-Development/">Go Web 开发笔记</a><div class="post-labels"><span class="post-label">web</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2025-03-29">2025.03.29</time><div><a class="post-title" href="/2025/03/29/Algorithms/">算法基础笔记</a><div class="post-labels"><span class="post-label">Algorithm</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2025-03-07">2025.03.07</time><div><a class="post-title" href="/2025/03/07/Bustub-CMU-15-445😇/">BusTub：CMU 15-445 数据库项目</a><div class="post-labels"><span class="post-label">Database</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2025-01-29">2025.01.29</time><div><a class="post-title" href="/2025/01/29/extendible-hash-index/">可扩展哈希索引</a><div class="post-labels"><span class="post-label">Database</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2025-01-07">2025.01.07</time><div><a class="post-title" href="/2025/01/07/Buffer-Pool-Manager/">缓冲池管理器</a><div class="post-labels"><span class="post-label">Database</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-12-27">2024.12.27</time><div><a class="post-title" href="/2024/12/27/Design-Pattern-Strategy/">设计模式：策略模式</a><div class="post-labels"><span class="post-label">Design Pattern</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-12-25">2024.12.25</time><div><a class="post-title" href="/2024/12/25/Design-Pattern-Template-Method/">设计模式：模板方法</a><div class="post-labels"><span class="post-label">Design Pattern</span></div></div></li>
       <li class="post-item" data-post-item><time class="post-date" datetime="2024-10-20">2024.10.20</time><div><a class="post-title" href="/2024/10/20/Linux-高性能服务器编程/">Linux 高性能服务器编程</a><div class="post-labels"><span class="post-label">Linux</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-09-19">2024.09.19</time><div><a class="post-title" href="/2024/09/19/Dynamic-Programming-II/">Dynamic Programming II</a><div class="post-labels"><span class="post-label">Algorithm</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-09-18">2024.09.18</time><div><a class="post-title" href="/2024/09/18/markdown-export-pdf/">markdown export pdf</a><div class="post-labels"><span class="post-label">web</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-09-02">2024.09.02</time><div><a class="post-title" href="/2024/09/02/Dynamic-Programming-I/">Dynamic Programming I</a><div class="post-labels"><span class="post-label">Algorithm</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-07-01">2024.07.01</time><div><a class="post-title" href="/2024/07/01/FAT32-spec/">FAT32-spec</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-28">2024.06.28</time><div><a class="post-title" href="/2024/06/28/os-review/">os-review</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-28">2024.06.28</time><div><a class="post-title" href="/2024/06/28/os-code-kernel/">os-code-kernel</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-28">2024.06.28</time><div><a class="post-title" href="/2024/06/28/os-code-persistence/">os-code-persistence</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-27">2024.06.27</time><div><a class="post-title" href="/2024/06/27/os-code-virtualization/">os-code-virtualization</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-26">2024.06.26</time><div><a class="post-title" href="/2024/06/26/os-code-concurrency/">os-code-concurrency</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-26">2024.06.26</time><div><a class="post-title" href="/2024/06/26/os-code-introduction/">os-code-introduction</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-26">2024.06.26</time><div><a class="post-title" href="/2024/06/26/emoji-mathjax/">emoji &amp; mathjax</a><div class="post-labels"><span class="post-label">hexo</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-19">2024.06.19</time><div><a class="post-title" href="/2024/06/19/Some-Words-To-U/">Some Words To U</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-16">2024.06.16</time><div><a class="post-title" href="/2024/06/16/Journal-2/">Journal-2</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-16">2024.06.16</time><div><a class="post-title" href="/2024/06/16/Numerical-Method-Review/">Numerical-Method-Review</a><div class="post-labels"><span class="post-label">Numerical Method</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-11">2024.06.11</time><div><a class="post-title" href="/2024/06/11/Probability-Theory-Review/">Probability Theory Review</a><div class="post-labels"><span class="post-label">Probability Theory</span></div></div></li>
-      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-05">2024.06.05</time><div><a class="post-title" href="/2024/06/05/Journal-1/">Journal-1</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-09-19">2024.09.19</time><div><a class="post-title" href="/2024/09/19/Dynamic-Programming-II/">动态规划（二）</a><div class="post-labels"><span class="post-label">Algorithm</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-09-18">2024.09.18</time><div><a class="post-title" href="/2024/09/18/markdown-export-pdf/">Markdown 导出 PDF</a><div class="post-labels"><span class="post-label">web</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-09-02">2024.09.02</time><div><a class="post-title" href="/2024/09/02/Dynamic-Programming-I/">动态规划（一）</a><div class="post-labels"><span class="post-label">Algorithm</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-07-01">2024.07.01</time><div><a class="post-title" href="/2024/07/01/FAT32-spec/">FAT32 文件系统规范</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-28">2024.06.28</time><div><a class="post-title" href="/2024/06/28/os-review/">操作系统复习笔记</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-28">2024.06.28</time><div><a class="post-title" href="/2024/06/28/os-code-kernel/">操作系统代码：内核</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-28">2024.06.28</time><div><a class="post-title" href="/2024/06/28/os-code-persistence/">操作系统代码：持久化</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-27">2024.06.27</time><div><a class="post-title" href="/2024/06/27/os-code-virtualization/">操作系统代码：虚拟化</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-26">2024.06.26</time><div><a class="post-title" href="/2024/06/26/os-code-concurrency/">操作系统代码：并发</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-26">2024.06.26</time><div><a class="post-title" href="/2024/06/26/os-code-introduction/">操作系统代码导读</a><div class="post-labels"><span class="post-label">Operation System</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-26">2024.06.26</time><div><a class="post-title" href="/2024/06/26/emoji-mathjax/">Hexo 中的 Emoji 与 MathJax</a><div class="post-labels"><span class="post-label">hexo</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-16">2024.06.16</time><div><a class="post-title" href="/2024/06/16/Journal-2/">用 Pandoc 与 reveal.js 制作幻灯片</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-16">2024.06.16</time><div><a class="post-title" href="/2024/06/16/Numerical-Method-Review/">数值计算方法复习</a><div class="post-labels"><span class="post-label">Numerical Method</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-11">2024.06.11</time><div><a class="post-title" href="/2024/06/11/Probability-Theory-Review/">概率论复习</a><div class="post-labels"><span class="post-label">Probability Theory</span></div></div></li>
+      <li class="post-item" data-post-item><time class="post-date" datetime="2024-06-05">2024.06.05</time><div><a class="post-title" href="/2024/06/05/Journal-1/">博客开篇与学习计划</a><div class="post-labels"><span class="post-label">thinking</span></div></div></li>
     </ul>
     <p class="no-results" data-no-results>没有找到匹配的文章。</p>
   </main>

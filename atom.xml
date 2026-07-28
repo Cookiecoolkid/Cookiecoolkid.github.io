@@ -83,7 +83,7 @@
   </entry>
   
   <entry>
-    <title>Algorithms</title>
+    <title>算法基础笔记</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/29/Algorithms/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/29/Algorithms/</id>
     <published>2025-03-29T09:05:48.000Z</published>
@@ -110,7 +110,7 @@
   </entry>
   
   <entry>
-    <title>Bustub--CMU-15-445😇</title>
+    <title>BusTub：CMU 15-445 数据库项目</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/07/Bustub-CMU-15-445%F0%9F%98%87/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/03/07/Bustub-CMU-15-445%F0%9F%98%87/</id>
     <published>2025-03-07T01:18:48.000Z</published>
@@ -129,7 +129,7 @@
   </entry>
   
   <entry>
-    <title>extendible-hash-index</title>
+    <title>可扩展哈希索引</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/29/extendible-hash-index/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/29/extendible-hash-index/</id>
     <published>2025-01-29T04:11:57.000Z</published>
@@ -148,7 +148,7 @@
   </entry>
   
   <entry>
-    <title>Buffer-Pool-Manager</title>
+    <title>缓冲池管理器</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/07/Buffer-Pool-Manager/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2025/01/07/Buffer-Pool-Manager/</id>
     <published>2025-01-07T03:16:44.000Z</published>
@@ -167,7 +167,7 @@
   </entry>
   
   <entry>
-    <title>Design Pattern Strategy</title>
+    <title>设计模式：策略模式</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/27/Design-Pattern-Strategy/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/27/Design-Pattern-Strategy/</id>
     <published>2024-12-27T09:13:32.000Z</published>
@@ -189,7 +189,7 @@
   </entry>
   
   <entry>
-    <title>Design Pattern: Template Method</title>
+    <title>设计模式：模板方法</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/25/Design-Pattern-Template-Method/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/12/25/Design-Pattern-Template-Method/</id>
     <published>2024-12-25T15:46:55.000Z</published>
@@ -207,25 +207,6 @@
     
     
     <category term="Template Method" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/Template-Method/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>muduo</title>
-    <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/muduo/"/>
-    <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/10/30/muduo/</id>
-    <published>2024-10-30T08:33:15.000Z</published>
-    <updated>2024-10-30T11:05:59.917Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;strong&gt;reference: Linux多线程服务端编程：使用muduo C++网络库 -- 陈硕&lt;/strong&gt; &lt;code&gt;muduo repository&lt;/code&gt;: &lt;a href=&quot;https://github.com/chenshuo/muduo&quot;&gt;[muduo](https://github.com/chenshuo/muduo)&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="web" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/tags/web/"/>
     
   </entry>
   
@@ -253,7 +234,7 @@
   </entry>
   
   <entry>
-    <title>Dynamic Programming II</title>
+    <title>动态规划（二）</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/19/Dynamic-Programming-II/</id>
     <published>2024-09-19T06:59:30.000Z</published>
@@ -275,7 +256,7 @@
   </entry>
   
   <entry>
-    <title>Dynamic Programming I</title>
+    <title>动态规划（一）</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/09/02/Dynamic-Programming-I/</id>
     <published>2024-09-02T01:26:24.000Z</published>
@@ -309,7 +290,7 @@
   </entry>
   
   <entry>
-    <title>FAT32-spec</title>
+    <title>FAT32 文件系统规范</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/01/FAT32-spec/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/07/01/FAT32-spec/</id>
     <published>2024-07-01T08:19:41.000Z</published>
@@ -328,7 +309,7 @@
   </entry>
   
   <entry>
-    <title>os-review</title>
+    <title>操作系统复习笔记</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-review/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-review/</id>
     <published>2024-06-28T15:41:35.000Z</published>
@@ -347,7 +328,7 @@
   </entry>
   
   <entry>
-    <title>os-code-persistence</title>
+    <title>操作系统代码：持久化</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-persistence/</id>
     <published>2024-06-28T08:19:41.000Z</published>
@@ -367,7 +348,7 @@
   </entry>
   
   <entry>
-    <title>os-code-kernel</title>
+    <title>操作系统代码：内核</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-kernel/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/28/os-code-kernel/</id>
     <published>2024-06-28T08:08:05.000Z</published>
@@ -387,7 +368,7 @@
   </entry>
   
   <entry>
-    <title>os-code-virtualization</title>
+    <title>操作系统代码：虚拟化</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/27/os-code-virtualization/</id>
     <published>2024-06-27T08:32:08.000Z</published>
@@ -407,7 +388,7 @@
   </entry>
   
   <entry>
-    <title>emoji &amp; mathjax</title>
+    <title>Hexo 中的 Emoji 与 MathJax</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/emoji-mathjax/</id>
     <published>2024-06-26T10:33:01.000Z</published>
@@ -426,7 +407,7 @@
   </entry>
   
   <entry>
-    <title>os-code-concurrency</title>
+    <title>操作系统代码：并发</title>
     <link href="https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/"/>
     <id>https://github.com/Cookiecoolkid/Cookiecoolkid.github.io/2024/06/26/os-code-concurrency/</id>
     <published>2024-06-26T08:32:08.000Z</published>

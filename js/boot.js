@@ -26,6 +26,22 @@ function initPersonalSiteShell() {
   body.dataset.personalShell = 'true';
   body.classList.add('legacy-page');
 
+  var hiddenPostPaths = [
+    '/2024/06/19/Some-Words-To-U/',
+    '/2024/10/30/muduo/'
+  ];
+  document.querySelectorAll('a[href]').forEach(function(link) {
+    var pathname;
+    try {
+      pathname = new URL(link.getAttribute('href'), window.location.origin).pathname;
+    } catch (error) {
+      return;
+    }
+    if (hiddenPostPaths.indexOf(pathname) === -1) return;
+    var container = link.closest('.index-card, a.list-group-item');
+    (container || link).remove();
+  });
+
   var main = document.querySelector('body > main');
   var oldHeader = document.querySelector('body > header:not([data-site-shell])');
   var oldFooter = document.querySelector('body > footer');
@@ -60,7 +76,7 @@ function initPersonalSiteShell() {
     themeButton.textContent = theme === 'dark' ? '☼' : '◐';
     themeButton.title = theme === 'dark' ? '切换到浅色模式' : '切换到深色模式';
   }
-  applyTheme(document.documentElement.dataset.theme || 'dark');
+  applyTheme(document.documentElement.dataset.theme || 'light');
   themeButton.addEventListener('click', function() {
     var nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
     try { window.localStorage.setItem('lizheng-site-theme', nextTheme); } catch (error) { /* ignore */ }
